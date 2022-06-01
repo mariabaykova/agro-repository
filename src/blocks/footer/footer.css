@@ -1,0 +1,5 @@
+.footer {
+    grid-area: footer;
+    background: blueviolet;
+    /* font-size: 1000px; */
+}

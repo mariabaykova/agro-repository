@@ -1,4 +1,7 @@
 @import url(../../vendor/normalize.css);
+@import url(../../blocks/header/header.css);
+@import url(../../blocks/main/main.css);
+@import url(../../blocks/footer/footer.css);
 
 html,
 body {
@@ -6,4 +9,28 @@ body {
     line-height: 14px;
     font-family: 'Nunito', sans-serif;
 }
+section {
+    border: 0.5px solid blue;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 123px 1fr 582px;
+    /* background-color: bisque; */
+
+    grid-template-areas:
+    "header"
+    "main"
+    "footer"
+    ;
+
+}
+
+@import url(../../blocks/header/header.css);
+
+@import url(../../blocks/main/main.css);
+
+@import url(../../blocks/footer/footer.css);
 

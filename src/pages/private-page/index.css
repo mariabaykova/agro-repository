@@ -6,3 +6,9 @@ body {
     line-height: 14px;
     font-family: 'Nunito', sans-serif;
 }
+
+@import url(../../blocks/header/header.css);
+
+/* здесь еще подключить стили для блоков в main */
+
+@import url(../../blocks/footer/footer.css);

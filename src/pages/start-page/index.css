@@ -14,11 +14,11 @@ section {
 }
 
 .wrapper {
-    min-height: 100vh;
+     min-height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 123px 1fr 582px;
-    /* background-color: bisque; */
+    /*background-color: bisque;*/
 
     grid-template-areas:
     "header"
@@ -34,3 +34,35 @@ section {
 
 @import url(../../blocks/footer/footer.css);
 
+.button__text {
+    font-family: 'Nunito', sans-serif;
+    font-size: 10px;
+}
+
+.button_yellow {
+    background-color: #F9A123;
+    color: white;
+}
+
+.button_orange {
+    background-color: #E15601;
+    color: white;
+}
+
+.button_wide {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.button_narrow {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.button_online-bank {
+    background-color: #FFBD00;
+    color: #E15601;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: bold;
+}

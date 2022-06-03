@@ -21,84 +21,126 @@
 <body>
     <div class="wrapper">
         <header class="header">
-            header
 
-            <button type="button" class="btn btn-sm button_online-bank button_narrow"><span
-                    class="button__text">ONLINE-BANK</span></button>
+            <nav class="py-2 bg-light border-bottom">
+                <div class="container d-flex flex-wrap justify-content-between">
+                    <ul class="nav me-auto">
 
-        </header>
-        <main class="main">
-            <section class="top-block slider">
-                <div class="top-block__slide1">
-                    <div class="container">
-                        <h1 class="top-block__slide1-text">Вклад с доходом до <span
-                                class="top-block__slide1-text_red">4,15%</span> годовых</h1>
-                        <button type="button"
-                            class="btn btn-sm button_yellow top-block__button top-block__button_none button_wide"><span
-                                class="button__text">Подробнее</span></button>
-                        <button type="button" class="btn button_orange btn-sm top-block__button button_wide"><span
-                                class="button__text">Заявка</span></button>
+                        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Частным клиентам</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Бизнесу</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Недвижимость</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Поиск</a></li>
+                        <!--<form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
+                            <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+                        </form>-->
+                    </ul>
+                    <div class="header__addres header__addres-adres"><img src="/src/assets/images/icon_location.svg"
+                            alt="location">
+                        Санкт-Петербург
+                        <select name="language">
+                            <option value="en">EN</option>
+                            <option value="ru" selected>RU</option>
+                        </select>
+                    </div>
+
+                </div>
+
+
+            </nav>
+            <header class="py-3 mb-4 border-bottom">
+                <div class="container d-flex flex-wrap justify-content-between">
+                    <a href="/src/pages/start-page/index.html">
+                        <img src="/src/assets/images/logo.svg" alt="logo">
+                    </a>
+                    <ul class="nav">
+                        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Карты</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Кредиты</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Вклады</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Оплата</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Услуги</a></li>
+                    </ul>
+                    <div><a class="header__addres-tel" href="tel:88002224419">8 800 222 44 19</a>
+                        <br>
+                        Свяжитесь с нами
+                        <button type="button" class="btn btn-sm button_online-bank button_narrow"><span
+                                class="button__text">ONLINE-BANK</span></button>
                     </div>
                 </div>
 
-                <div class="top-block__slide2">
-                    <div class="container">
-                        <h1 class="top-block__slide2-text">Кредит по двум документам на любые цели</h1>
-                        <button type="button"
-                            class="btn btn-sm button_yellow top-block__button button_wide top-block__button_none"><span
-                                class="button__text">Подробнее</span></button>
-                        <button type="button" class="btn button_orange btn-sm top-block__button button_wide"><span
-                                class="button__text">Оформить</span></button>
+
+            </header>
+            <main class="main">
+                <section class="top-block slider">
+                    <div class="top-block__slide1">
+                        <div class="container">
+                            <h1 class="top-block__slide1-text">Вклад с доходом до <span
+                                    class="top-block__slide1-text_red">4,15%</span> годовых</h1>
+                            <button type="button"
+                                class="btn btn-sm button_yellow top-block__button top-block__button_none button_wide"><span
+                                    class="button__text">Подробнее</span></button>
+                            <button type="button" class="btn button_orange btn-sm top-block__button button_wide"><span
+                                    class="button__text">Заявка</span></button>
+                        </div>
                     </div>
-                </div>
-            </section>
-            <section class="currency">
 
-                <button type="button" class="btn button_orange btn-sm button_narrow"><span
-                        class="button__text">Забронировать
-                        курс</span></button>
+                    <div class="top-block__slide2">
+                        <div class="container">
+                            <h1 class="top-block__slide2-text">Кредит по двум документам на любые цели</h1>
+                            <button type="button"
+                                class="btn btn-sm button_yellow top-block__button button_wide top-block__button_none"><span
+                                    class="button__text">Подробнее</span></button>
+                            <button type="button" class="btn button_orange btn-sm top-block__button button_wide"><span
+                                    class="button__text">Оформить</span></button>
+                        </div>
+                    </div>
+                </section>
+                <section class="currency">
 
-            </section>
-            <section class="popular-products">popular products
+                    <button type="button" class="btn button_orange btn-sm button_narrow"><span
+                            class="button__text">Забронировать
+                            курс</span></button>
 
-                <button type="button" class="btn btn-sm button_yellow button_narrow"><span
-                        class="button__text">Подробнее</span></button>
+                </section>
+                <section class="popular-products">popular products
 
-                <button type="button" class="btn button_orange btn-sm button_narrow"><span
-                        class="button__text">Рассчитать</span></button>
+                    <button type="button" class="btn btn-sm button_yellow button_narrow"><span
+                            class="button__text">Подробнее</span></button>
 
-                <button type="button" class="btn button_orange btn-sm button_narrow"><span
-                        class="button__text">Оформить</span></button>
+                    <button type="button" class="btn button_orange btn-sm button_narrow"><span
+                            class="button__text">Рассчитать</span></button>
 
-            </section>
-            <section class="credit-types">credit types</section>
-            <section class="credit-calculator">credit calculator
+                    <button type="button" class="btn button_orange btn-sm button_narrow"><span
+                            class="button__text">Оформить</span></button>
 
-                <button type="button" class="btn btn-sm button_yellow button_wide"><span
-                        class="button__text">Подробнее</span></button>
-                <button type="button" class="btn button_orange btn-sm button_wide"><span
-                        class="button__text">Заявка</span></button>
+                </section>
+                <section class="credit-types">credit types</section>
+                <section class="credit-calculator">credit calculator
 
-            </section>
-            <section class="business-services">business services</section>
-            <section class="appointment">appointment
+                    <button type="button" class="btn btn-sm button_yellow button_wide"><span
+                            class="button__text">Подробнее</span></button>
+                    <button type="button" class="btn button_orange btn-sm button_wide"><span
+                            class="button__text">Заявка</span></button>
 
-                <button type="button" class="btn button_orange btn-sm button_wide"><span
-                        class="button__text">Заявка</span></button>
+                </section>
+                <section class="business-services">business services</section>
+                <section class="appointment">appointment
 
-            </section>
-            <section class="mobile-bank">mobile bank section
+                    <button type="button" class="btn button_orange btn-sm button_wide"><span
+                            class="button__text">Заявка</span></button>
 
-                <button type="button" class="btn btn-sm button_online-bank button_narrow"><span
-                        class="button__text">ONLINE-BANK</span></button>
+                </section>
+                <section class="mobile-bank">mobile bank section
 
-            </section>
-            <section class="news">news</section>
+                    <button type="button" class="btn btn-sm button_online-bank button_narrow"><span
+                            class="button__text">ONLINE-BANK</span></button>
 
-        </main>
-        <footer class="footer">
-            footer
-        </footer>
+                </section>
+                <section class="news">news</section>
+
+            </main>
+            <footer class="footer">
+                footer
+            </footer>
     </div>
 
 

@@ -6,6 +6,7 @@ body {
     line-height: 14px;
     font-family: 'Nunito', sans-serif;
 }
+
 section {
     border: 0.5px solid blue;
 }
@@ -18,9 +19,9 @@ section {
     /*background-color: bisque;*/
 
     grid-template-areas:
-    "header"
-    "main"
-    "footer"
+        "header"
+        "main"
+        "footer"
     ;
 
 }
@@ -33,9 +34,184 @@ main {
 
 .header {
     grid-area: header;
-    background-color: rgb(61, 60, 60);
+
 }
 
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+.form-control-dark {
+    border-color: var(--bs-gray);
+}
+
+.form-control-dark:focus {
+    border-color: #fff;
+    box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+}
+
+.text-small {
+    font-size: 85%;
+}
+
+.dropdown-toggle {
+    outline: 0;
+}
+
+.nav-item a {
+
+    margin-left: 10px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 11px;
+    text-transform: capitalize;
+    color: #807C7C;
+}
+
+.nav-item2 a {
+    padding-top: 35px;
+    margin-left: 20px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 11px;
+    text-transform: capitalize;
+    color: #807C7C;
+}
+
+.logo {
+    padding-left: 0%;
+    width: 182px;
+    height: 65px;
+    left: 139px;
+    top: 45px;
+}
+.location
+{
+    width: 15.91px;
+height: 25px;
+left: 1092px;
+margin-top: -10px;
+
+}
+.header__addres
+{
+
+margin-left: 50px;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 11px;
+text-transform: capitalize;
+color: #807C7C;
+}
+.language
+{
+    margin-left: 10px;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 11px;
+/* identical to box height, or 73% */
+
+text-transform: uppercase;
+
+color: #E15601;
+}
+.header-adress
+{
+    padding-top: 25px;
+}
+.header__addres-tel{
+
+width: 193px;
+height: 11px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 11px;
+/* identical to box height, or 44% */
+
+text-transform: capitalize;
+
+color: #4E8A6B;
+}
+.adress-tel
+{
+margin-left: 85px;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 11px;
+/* identical to box height, or 92% */
+
+
+color: #807C7C;
+}
+
+.button_online-bank{
+width: 185px;
+height: 42px;
+margin-top: 10px;
+margin-left: 10px;
+background: #FFBD00;
+border-radius: 3px;
+}
 /******************************** button *******************************/
 
 .button__text {
@@ -89,7 +265,7 @@ main {
     padding-top: 10vh;
     padding-bottom: 40px;
     font-family: 'Nunito', sans-serif;
-    font-size: 30px; 
+    font-size: 30px;
     display: block;
     width: 260px;
 }
@@ -100,12 +276,13 @@ main {
     background-repeat: no-repeat;
     background-size: 100% auto;
 }
+
 .top-block__slide2-text {
-    color:#4E8A6B;
+    color: #4E8A6B;
     padding-top: 10vh;
     padding-bottom: 40px;
     font-family: 'Nunito', sans-serif;
-    font-size: 30px; 
+    font-size: 30px;
     display: block;
     width: 260px;
 }
@@ -122,13 +299,14 @@ main {
 }
 
 @media screen and (min-width: 1270px) {
+
     .top-block__slide1-text,
     .top-block__slide2-text {
-    font-size: 40px;
-    display: block;
-    width: 437px;
+        font-size: 40px;
+        display: block;
+        width: 437px;
     }
-    
+
 }
 
 .slick-track {
@@ -154,6 +332,7 @@ main {
     width: 30px;
     height: 50px;
 }
+
 .slider .slick-arrow .slick-prev {
     left: 0;
     background: url(/src/images/main_top-block_Arrow2.png) 0 0 / 100% no-repeat;
@@ -163,7 +342,7 @@ main {
 .slider .slick-arrow .slick-next {
     right: 0;
     background: url(/src/images/main_top-block_Arrow2.png) 0 0 / 100% no-repeat;
-    }
+}
 
 .slider .slick-dots {
     display: flex;

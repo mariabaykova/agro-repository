@@ -1,14 +1,20 @@
 $(function () {
     $('.slider').slick({
-        arrows: false,
-        infinite: true,
-        speed: 500,
+        arrows: true,
+        dots: false,
+        adaptiveHeight: true,
+        infinite: false,
+        speed: 1000,
+        easing: 'ease',
         autoplay: true,
-        autoplaySpeed: 4000,
+        autoplaySpeed: 5000,
         slidesToShow: 1,
         slidesToScroll: 1,
+        pauseOnFocus: true,
+        pauseOnHover: true,
+        pauseOnDotsHover: true,
         responsive: [{
-                breakpoint: 480,
+                breakpoint: 540,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,

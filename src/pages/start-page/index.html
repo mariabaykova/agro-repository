@@ -21,10 +21,53 @@
 <body>
     <div class="wrapper">
         <header class="header">
-            header
 
-            <button type="button" class="btn btn-sm button_online-bank button_narrow"><span
-                    class="button__text">ONLINE-BANK</span></button>
+            <nav class="py-2 bg-light border-bottom">
+                <div class="container d-flex flex-wrap justify-content-between">
+                    <ul class="nav me-auto">
+
+                        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Частным клиентам</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Бизнесу</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Недвижимость</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Поиск</a></li>
+                        <!--<form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
+                            <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+                        </form>-->
+                    </ul>
+                    <div class="adress header__addres header__addres-adres"><img class="location"
+                            src="/src/assets/images/icon_location.svg" alt="location">
+                        Санкт-Петербург
+                        <select class="language" name="language">
+                            <option value="en">EN</option>
+                            <option value="ru" selected>RU</option>
+                        </select>
+                    </div>
+
+                </div>
+
+
+            </nav>
+
+            <div class="container d-flex flex-wrap justify-content-between">
+                <a href="/src/pages/start-page/index.html">
+                    <img src="/src/assets/images/logo.svg" alt="logo">
+                </a>
+                <ul class="nav">
+                    <li class="nav-item2"><a href="#" class="nav-link link-dark px-2">Карты</a></li>
+                    <li class="nav-item2"><a href="#" class="nav-link link-dark px-2">Кредиты</a></li>
+                    <li class="nav-item2"><a href="#" class="nav-link link-dark px-2">Вклады</a></li>
+                    <li class="nav-item2"><a href="#" class="nav-link link-dark px-2">Оплата</a></li>
+                    <li class="nav-item2"><a href="#" class="nav-link link-dark px-2">Услуги</a></li>
+                </ul>
+                <div class="header-adress"> <a class="header__addres-tel" href="tel:88002224419">8 800 222 44 19</a>
+                    <br>
+                    <p class="adress-tel">Свяжитесь с нами</p>
+
+                </div>
+                <button type="button" class="btn btn-sm button_online-bank button_narrow"><span
+                        class="button__text">ONLINE-BANK</span></button>
+            </div>
+
 
         </header>
         <main class="main">
@@ -97,7 +140,118 @@
 
         </main>
         <footer class="footer">
-            footer
+            <div class="footer__bank">
+                <h5 class="footer__title">Банк</h5>
+                <nav class="footer__menu">
+                    <ul class="footer__menu-list">
+                        <li>
+                            <a href="../private-page/index.html" class="footer__link">О банке</a>
+                        </li>
+                        <li>
+                            <a href="../private-page/index.html" class="footer__link">Руководство</a>
+                        </li>
+                        <li>
+                            <a href="../private-page/index.html" class="footer__link">Клиенты и Партнеры</a>
+                        </li>
+                        <li>
+                            <a href="../private-page/index.html" class="footer__link">Акционерам и Инвесторам</a>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer__information">
+                <h5 class="footer__title">информация</h5>
+                <nav class="footer__menu">
+                    <ul class="footer__menu-list">
+                        <li>
+                            <a href="../private-page/index.html" class="footer__link">Лицензии</a>
+                        </li>
+                        <li>
+                            <a href="../private-page/index.html" class="footer__link">Реквизиты</a>
+                        </li>
+                        <li>
+                            <a href="../private-page/index.html" class="footer__link">Финансовые показатели</a>
+                        </li>
+                        <li>
+                            <a href="../private-page/index.html" class="footer__link">Раскрываемая информация</a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+            </div>
+
+            <div class="footer__navbar">
+                <nav class="footer__menu">
+                    <ul class="footer__menu-list">
+                        <li>
+                            <a href="../private-page/index.html" class="footer__link footer__link_uppercase">Пресс-Центр</a>
+                        </li>
+                        <li>
+                            <a href="../private-page/index.html" class="footer__link footer__link_uppercase">Контакты</a>
+                        </li>
+                        <li>
+                            <a href="../private-page/index.html" class="footer__link footer__link_uppercase">карьера</a>
+                        </li>
+                        <li>
+                            <a href="../private-page/index.html" class="footer__link footer__link_uppercase">помощь</a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+            </div>
+
+            <div class="footer__contacts">
+                <div class="footer__tel-info">Бесплатно по России</div>
+                <a href="tel:8 800 222 44 19" class="footer__link-tel">8 800 222 44 19</a>
+                <div class="footer__tel-info footer__tel-info_hidden">Бесплатно по России</div>
+                <div class="footer__contacts-box">
+                    <div class="footer__contacts-info">ООО "Листик и Партнеры"</div>
+                    <div class="footer__contacts-info">454091, г. Челябинск, ул. Пушкина, д. 6-В</div>
+                </div>
+            </div>
+            <div class="footer__search-box">
+                <form action="#" class="">
+                    <input type="search" placeholder="Поиск" class="footer__search">
+                    <!-- <button type="submit" class="footer__search-button"> -->
+                    </button>
+                </form>
+            </div>
+            <div class="footer__smedia">
+                <div class="footer__smedia-icon-box">
+                    <a href="#" class="footer__smedia-link">
+                        <img src="../../assets/images/footer_tg-icon.svg" alt="telegram link" class="footer__smedia-icon">
+                    </a>
+                </div>
+                <div class="footer__smedia-icon-box">
+                    <a href="#" class="footer__smedia-link">
+                        <img src="../../assets/images/footer_fb_icon.svg" alt="facebook link" class="footer__smedia-icon">
+                    </a>
+                </div>
+                <div class="footer__smedia-icon-box">
+                    <a href="#" class="footer__smedia-link">
+                        <img src="../../assets/images/footer_instagram_icon.svg" alt="instagram link" class="footer__smedia-icon">
+                    </a>
+                </div>
+                <div class="footer__smedia-icon-box">
+                    <a href="#" class="footer__smedia-link">
+                        <img src="../../assets/images/footer_vk_icon.svg" alt="vk link" class="footer__smedia-icon">
+                    </a>
+                </div>
+            </div>
+            <div class="footer__info-docs">
+                <h6 class="footer__title_small">Информационнная документация</h6>
+                <div class="footer__info-docs-box">
+                    <a href="#" class="footer__link footer__link_small">Список лиц, под контролем либо значительным влиянием которых находится банк “Агророс” по состоянию на 15.12.2020 г.</a>
+                    <a href="#" class="footer__link footer__link_small footer__link_hidden">Информация о максимальных процентных ставках по вкладам физических лиц</a>
+                    <a href="#" class="footer__link footer__link_small footer__link_hidden">Информация о квалификации и опыте работы членов Правления и Совета директоров АО “Банк Агророс”</a>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                Все права защищены
+            </div>
         </footer>
     </div>
 

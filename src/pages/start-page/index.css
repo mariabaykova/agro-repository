@@ -219,7 +219,7 @@ bd-placeholder-img {
     .header {
         grid-template-columns: 100px;
         grid-template-rows: 10px;
-        pad
+        
     }
 
     .nav-item {
@@ -252,7 +252,7 @@ bd-placeholder-img {
         height: 4px;
         margin-top: 5px;
         margin-left: 5px;
-       
+
     }
 
 }

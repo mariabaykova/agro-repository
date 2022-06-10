@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/mariabaykova/agro-repository#readme",
   "dependencies": {
-    "jquery": "^3.6.0"
+    "jquery": "^3.6.0",
+    "slick": "^1.12.2"
   }
 }

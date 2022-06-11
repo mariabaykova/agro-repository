@@ -1,5 +1,5 @@
 $(function () {
-    $('.slider').slick({
+    $('.top-block__slider').slick({
         arrows: true,
         dots: false,
         adaptiveHeight: true,
@@ -22,5 +22,11 @@ $(function () {
                 dots: true,
             }
         }]
+    });
+});
+
+$(function () {
+    $('.popular-products__slider').slick({
+        arrows: false,
     });
 });

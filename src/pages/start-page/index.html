@@ -19,6 +19,7 @@
 </head>
 
 <body>
+    <div class="shadow" id="wrapper-shadow"></div>
     <div class="wrapper">
         <header class="header">
 
@@ -64,46 +65,46 @@
                     <p class="adress-tel">Свяжитесь с нами</p>
 
                 </div>
-                <button type="button" class="btn btn-sm button_online-bank button_narrow"><span
+                <button type="button" id="button-online-bank-1"
+                    class="btn btn-sm button_online-bank button_narrow dummy"><span
                         class="button__text">ONLINE-BANK</span></button>
             </div>
 
 
         </header>
         <main class="main">
-            <section class="top-block">
-                <div class="slider top-block__slider">
-                    <div class="top-block__slide1">
-                        <div class="container">
-                            <h1 class="top-block__slide1-text">Вклад с доходом до <span
-                                    class="top-block__slide1-text_red">4,15%</span> годовых</h1>
-                            <button type="button"
-                                class="btn top-block__slide1__button btn-sm button_yellow top-block__button top-block__button_none button_wide"><span
-                                    class="button__text">Подробнее</span></button>
-                            <button type="button"
-                                class="btn top-block__slide1__button button_orange btn-sm top-block__button button_wide"><span
-                                    class="button__text">Заявка</span></button>
-                        </div>
+
+            <section class="top-block slider">
+                <div class="top-block__slide1">
+                    <div class="container">
+                        <h1 class="top-block__slide1-text">Вклад с доходом до <span
+                                class="top-block__slide1-text_red">4,15%</span> годовых</h1>
+                        <button type="button" id="button-details-1"
+                            class="btn top-block__slide1__button btn-sm button_yellow top-block__button top-block__button_none button_wide dummy"><span
+                                class="button__text">Подробнее</span></button>
+                        <button type="button" id="button-application-1"
+                            class="btn top-block__slide1__button button_orange btn-sm top-block__button button_wide dummy"><span
+                                class="button__text">Заявка</span></button>
                     </div>
 
                     <div class="top-block__slide2">
                         <div class="container">
                             <h1 class="top-block__slide2-text">Кредит по двум документам на любые цели</h1>
-                            <button type="button"
-                                class="btn top-block__slide2__button btn-sm button_yellow top-block__button button_wide top-block__button_none"><span
+                            <button type="button" id="button-details-2"
+                                class="btn top-block__slide2__button btn-sm button_yellow top-block__button button_wide top-block__button_none dummy"><span
                                     class="button__text">Подробнее</span></button>
-                            <button type="button"
-                                class="btn top-block__slide2__button button_orange btn-sm top-block__button button_wide"><span
+                            <button type="button" id="button-apply-1"
+                                class="btn top-block__slide2__button button_orange btn-sm top-block__button button_wide dummy"><span
                                     class="button__text">Оформить</span></button>
                         </div>
                     </div>
-                </div>
             </section>
             <section class="currency">
 
-                <button type="button" class="btn button_orange btn-sm button_narrow"><span
+                <button type="button" id="button-book-1" class="btn button_orange btn-sm button_narrow"><span
                         class="button__text">Забронировать
                         курс</span></button>
+
 
                 <!---------------------------- popular ------------------->
 
@@ -114,24 +115,25 @@
 
                     <div class="popular-products__slide1">
                         <img src="/src/assets/images/main_popular-products_card.svg">
-                        <button type="button" class="btn btn-sm button_yellow button_narrow"><span
+                        <button type="button" id="button-details-3"
+                            class="btn btn-sm button_yellow button_narrow dummy"><span
                                 class="button__text">Подробнее</span></button>
                     </div>
 
                     <div class="popular-products__slide2">
                         <img src="/src/assets/images/main_popular-product_houses.png">
-                        <button type="button" class="btn button_orange btn-sm button_narrow"><span
+                        <button type="button" id="button-calc-1"
+                            class="btn button_orange btn-sm button_narrow dummy"><span
                                 class="button__text">Рассчитать</span></button>
                     </div>
 
                     <div class="popular-products__slide3">
-                        <button type="button" class="btn button_orange btn-sm button_narrow"><span
+                        <button type="button" id="button-apply-2"
+                            class="btn button_orange btn-sm button_narrow dummy"><span
                                 class="button__text">Оформить</span></button>
                     </div>
 
                 </div>
-
-
 
 
 
@@ -156,22 +158,23 @@
             </section>
             <section class="credit-calculator">credit calculator
 
-                <button type="button" class="btn btn-sm button_yellow button_wide"><span
+                <button type="button" id="button-details-4" class="btn btn-sm button_yellow button_wide dummy"><span
                         class="button__text">Подробнее</span></button>
-                <button type="button" class="btn button_orange btn-sm button_wide"><span
+                <button type="button" id="button-application-2" class="btn button_orange btn-sm button_wide dummy"><span
                         class="button__text">Заявка</span></button>
 
             </section>
             <section class="business-services">business services</section>
             <section class="appointment">appointment
 
-                <button type="button" class="btn button_orange btn-sm button_wide"><span
-                        class="button__text">Заявка</span></button>
+                <button type="button" id="button-appointment-1" class="btn button_orange btn-sm button_wide dummy"><span
+                        class="button__text">Записаться</span></button>
 
             </section>
             <section class="mobile-bank">mobile bank section
 
-                <button type="button" class="btn btn-sm button_online-bank button_narrow"><span
+                <button type="button" id="button-online-bank-2"
+                    class="btn btn-sm button_online-bank button_narrow dummy"><span
                         class="button__text">ONLINE-BANK</span></button>
 
             </section>
@@ -262,25 +265,25 @@
             </div>
             <div class="footer__smedia">
                 <div class="footer__smedia-icon-box">
-                    <a href="#" class="footer__smedia-link">
+                    <a href="#footer" class="footer__smedia-link dummy">
                         <img src="../../assets/images/footer_tg-icon.svg" alt="telegram link"
                             class="footer__smedia-icon">
                     </a>
                 </div>
                 <div class="footer__smedia-icon-box">
-                    <a href="#" class="footer__smedia-link">
+                    <a href="#footer" class="footer__smedia-link dummy">
                         <img src="../../assets/images/footer_fb_icon.svg" alt="facebook link"
                             class="footer__smedia-icon">
                     </a>
                 </div>
                 <div class="footer__smedia-icon-box">
-                    <a href="#" class="footer__smedia-link">
+                    <a href="#footer" class="footer__smedia-link dummy">
                         <img src="../../assets/images/footer_instagram_icon.svg" alt="instagram link"
                             class="footer__smedia-icon">
                     </a>
                 </div>
                 <div class="footer__smedia-icon-box">
-                    <a href="#" class="footer__smedia-link">
+                    <a href="#footer" class="footer__smedia-link dummy">
                         <img src="../../assets/images/footer_vk_icon.svg" alt="vk link" class="footer__smedia-icon">
                     </a>
                 </div>
@@ -311,9 +314,9 @@
     </script>
 
 
-
     <script src="/node_modules/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="/src/libs/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="../../components/modal-win.js"></script>
     <script type="text/javascript" src="/src/pages/start-page/index.js"></script>
 
 </body>

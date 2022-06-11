@@ -165,7 +165,6 @@ bd-placeholder-img {
     font-size: 15px;
     line-height: 11px;
 
-
     text-transform: uppercase;
 
     color: #E15601;
@@ -192,6 +191,7 @@ bd-placeholder-img {
     color: #4E8A6B;
 }
 
+
 .adress-tel {
     margin-left: 85px;
     font-family: 'Nunito';
@@ -200,7 +200,6 @@ bd-placeholder-img {
     font-size: 12px;
     line-height: 11px;
     /* identical to box height, or 92% */
-
 
     color: #807C7C;
 }
@@ -216,44 +215,6 @@ bd-placeholder-img {
 
 @media screen and (max-width: 800px) and (min-width: 450px) {
 
-    .header {
-        grid-template-columns: 100px;
-        grid-template-rows: 10px;
-        
-    }
-
-    .nav-item {
-
-
-        font-weight: 10;
-        font-size: 5px;
-        line-height: 2px;
-
-    }
-
-    .nav-item2 {
-
-        font-weight: 10;
-        font-size: 5px;
-        line-height: 2px;
-
-    }
-
-    .logo {
-
-        width: 10px;
-        height: 5px;
-        left: 13px;
-        top: 4px;
-    }
-
-    .button_online-bank {
-        width: 15px;
-        height: 4px;
-        margin-top: 5px;
-        margin-left: 5px;
-
-    }
 
 }
 
@@ -489,6 +450,209 @@ bd-placeholder-img {
     padding: 0 0px;
 }
 
+/************************************* credit type ****************************/
+
+.credit-types h2 {
+    position: relative;
+    width: 405px;
+    height: 65px;
+    left: 50%;
+    top: 10%;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 65px;
+    color: #373535;
+}
+
+.imgcredit {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 1000px;
+    position: relative;
+
+}
+
+.typescredit {
+    display: block;
+
+    width: 100%;
+
+    position: relative;
+    padding-top: 17%;
+    padding-left: 20%;
+}
+
+.typescredit p {
+    position: relative;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 46px;
+    letter-spacing: 0.035em;
+    color: #807C7C;
+}
+
+.typescredit a {
+    color: #807C7C;
+    text-decoration: none;
+}
+
+.typescredit a:hover {
+    color: #E15601;
+    text-decoration: underline green;
+}
+
+.rectangle {
+    display: block;
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    top: 12%;
+    left: 0%;
+
+    background: rgba(239, 228, 213, 0.4);
+    border-radius: 3px;
+}
+
+.line {
+    display: block;
+    width: 0, 5%;
+
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    border: 2px solid #4E8A6B;
+}
+
+.girl {
+
+    display: block;
+    position: relative;
+    width: 100%;
+
+    top: 2%;
+    left: 0%;
+}
+
+@media screen and (max-width: 800px)  {
+    .credit-types h2 {
+
+        left: 5%;
+        top: 10%;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 65px;
+        color: #373535;
+    }
+
+    .imgcredit {
+
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .typescredit {
+
+        width: 100%;
+        padding-top: 30%;
+        padding-left: 10%;
+    }
+
+    .typescredit p {
+
+        font-size: 14px;
+        line-height: 14px;
+
+    }
+
+
+    .rectangle {
+
+        width: 100%;
+        height: 90%;
+        top: 12%;
+        left: 0%;
+
+    }
+
+    .line {
+
+        width: 1%;
+        height: 50%;
+        top: 35%;
+        left: 50%;
+    }
+
+    .girl {
+        width: 150%;
+        top: 8%;
+        left: -25%;
+    }
+}
+
+@media screen and (max-width: 1269px) and (min-width: 760px) {
+    .credit-types h2 {
+        left: 50%;
+        top: 15%;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 65px;
+        color: #373535;
+    }
+
+    .imgcredit {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .typescredit {
+
+        width: 100%;
+        padding-top: 25%;
+        padding-left: 10%;
+    }
+
+    .typescredit p {
+
+        font-size: 16px;
+        line-height: 20px;
+
+    }
+
+
+    .rectangle {
+
+        width: 100%;
+        height: 60%;
+
+        top: 20%;
+        left: 0%;
+
+    }
+
+    .line {
+
+        width: 1%;
+        height: 50%;
+
+        top: 25%;
+        left: 50%;
+
+    }
+
+    .girl {
+
+
+        width: 130%;
+
+        top: 0%;
+        left: -15%;
+    }
+}
 
 /************************************* footer *********************************/
 

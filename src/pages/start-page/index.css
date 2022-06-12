@@ -747,7 +747,7 @@ main {
         display: none;
     }
     .currency__main {
-        /* display: block; */
+        display: grid;
     }
     .currency__title {
         font-size: 12px;

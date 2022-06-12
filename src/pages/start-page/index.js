@@ -28,5 +28,12 @@ $(function () {
 $(function () {
     $('.popular-products__slider').slick({
         arrows: false,
+        dots: false,
+        adaptiveHeight: true,
+        infinite: true,
+        speed: 1000,
+        easing: 'ease',
+        autoplay: false,
+        variableWidth: true,
     });
 });

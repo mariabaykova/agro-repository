@@ -280,7 +280,7 @@ main {
 
 .button__text {
     font-family: 'Nunito', sans-serif;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .button_yellow {
@@ -373,13 +373,16 @@ main {
 
     .top-block__slide1-text,
     .top-block__slide2-text {
-        font-size: 40px;
+        font-size: 50px;
         display: block;
         width: 437px;
     }
 
     .top-block__slide1__button {
-        margin-bottom: 86px;
+        margin-bottom: 150px;
+    }
+    .top-block__slide2__button {
+        margin-bottom: 87px;
     }
 }
 
@@ -491,6 +494,60 @@ main {
 .slider.slick-init {
     padding: 0 0px;
 }
+
+
+/************************************* popular products ****************************/
+
+.popular-products__header {
+    color: #373535;
+    font-size: 35px;
+    padding-bottom: 10px;
+    padding-top: 41px;
+}
+.popular-products__header_small {
+    font-size: 20px;
+    color: #373535;
+}
+
+.popular-products__card {
+    width: 390px;
+    height: 220px;
+    border: 1px solid #EFE4D5;
+    margin-right: 134px;
+}
+
+.popular-products__card-size {
+    
+    height: 167px;
+    margin-top: 26px;
+}
+
+.popular-products__card-text ul {
+    padding-left: 22px;
+    padding-top: 4px
+}
+
+.popular-products__card-text li {
+    list-style-type: none;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #807C7C;;
+}
+
+#button-details-3 {
+    margin-top: 20px;
+    margin-left: 22px;
+}
+
+#button-calc-1 {
+    margin-left: 22px;
+}
+
+.popular-products__card-text_orange {
+    color: #E15601;
+    font-weight: bold;
+}
+
 
 /************************************* credit type ****************************/
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -73,8 +73,7 @@
 
         </header>
         <main class="main">
-
-            <section class="top-block slider">
+            <section class="top-block__slider slider">
                 <div class="top-block__slide1">
                     <div class="container">
                         <h1 class="top-block__slide1-text">Вклад с доходом до <span
@@ -86,18 +85,18 @@
                             class="btn top-block__slide1__button button_orange btn-sm top-block__button button_wide dummy"><span
                                 class="button__text">Заявка</span></button>
                     </div>
-
-                    <div class="top-block__slide2">
-                        <div class="container">
-                            <h1 class="top-block__slide2-text">Кредит по двум документам на любые цели</h1>
-                            <button type="button" id="button-details-2"
-                                class="btn top-block__slide2__button btn-sm button_yellow top-block__button button_wide top-block__button_none dummy"><span
-                                    class="button__text">Подробнее</span></button>
-                            <button type="button" id="button-apply-1"
-                                class="btn top-block__slide2__button button_orange btn-sm top-block__button button_wide dummy"><span
-                                    class="button__text">Оформить</span></button>
-                        </div>
+                </div>
+                <div class="top-block__slide2">
+                    <div class="container">
+                        <h1 class="top-block__slide2-text">Кредит по двум документам на любые цели</h1>
+                        <button type="button" id="button-details-2"
+                            class="btn top-block__slide2__button btn-sm button_yellow top-block__button button_wide top-block__button_none dummy"><span
+                                class="button__text">Подробнее</span></button>
+                        <button type="button" id="button-apply-1"
+                            class="btn top-block__slide2__button button_orange btn-sm top-block__button button_wide dummy"><span
+                                class="button__text">Оформить</span></button>
                     </div>
+                </div>
             </section>
             <section class="currency">
 
@@ -105,33 +104,81 @@
                         class="button__text">Забронировать
                         курс</span></button>
 
-
-                <!---------------------------- popular ------------------->
-
             </section>
-            <section class="popular-products">
 
+
+            <!---------------------------- popular ------------------->
+
+
+            <section class="popular-products container">
+                <h2 class="popular-products__header">Популярные продукты</h2>
                 <div class="popular-products__slider slider">
 
-                    <div class="popular-products__slide1">
-                        <img src="/src/assets/images/main_popular-products_card.svg">
-                        <button type="button" id="button-details-3"
-                            class="btn btn-sm button_yellow button_narrow dummy"><span
-                                class="button__text">Подробнее</span></button>
+                    <div class="popular-products__slide">
+                        <h3 class="popular-products__header_small">Моментальная карта</h3>
+                        <div class="popular-products__card row">
+                            <div class="popular-products__card-text col-6">
+                                <ul>
+                                    <li>Бесплатный выпуск и обслуживание</li>
+                                    <li><span class="popular-products__card-text_orange">3 %</span> на остаток по карте
+                                    </li>
+                                    <li>CashBack до <span class="popular-products__card-text_orange">1%</span></li>
+                                </ul>
+                                <button type="button" id="button-details-3"
+                                    class="btn btn-sm button_yellow button_narrow dummy"><span
+                                        class="button__text">Подробнее</span></button>
+                            </div>
+                            <div class="popular-products__card-img col-6">
+                                <img class="popular-products__card-size"
+                                    src="/src/assets/images/main_popular-products_card.svg" alt="card">
+                            </div>
+
+                        </div>
                     </div>
 
-                    <div class="popular-products__slide2">
-                        <img src="/src/assets/images/main_popular-product_houses.png">
-                        <button type="button" id="button-calc-1"
-                            class="btn button_orange btn-sm button_narrow dummy"><span
-                                class="button__text">Рассчитать</span></button>
+
+                    <div class="popular-products__slide">
+                        <h3 class="popular-products__header_small">Ипотека от 4,7 %</h3>
+                        <div class="popular-products__card row">
+                            <div class="popular-products__card-text col-7">
+                                <ul>
+                                    <li>Квартира в готовом или строящемся доме</li>
+                                    <li>Рассмотрение заявок онлайн за 12 часов</li>
+                                    <li>Первоначальный взнос от <span
+                                            class="popular-products__card1-text_orange">10%</span></li>
+                                </ul>
+                                <button type="button" id="button-calc-1"
+                                    class="btn button_orange btn-sm button_narrow dummy"><span
+                                        class="button__text">Рассчитать</span></button>
+                            </div>
+                            <div class="popular-products__card1-img col-5">
+                                <img class="popular-products__card-size"
+                                    src="/src/assets/images/main_popular-product_houses.png" alt="houses">
+                            </div>
+
+                        </div>
                     </div>
 
-                    <div class="popular-products__slide3">
-                        <button type="button" id="button-apply-2"
-                            class="btn button_orange btn-sm button_narrow dummy"><span
-                                class="button__text">Оформить</span></button>
+                    <div class="popular-products__slide">
+                        <h3 class="popular-products__header_small">Вклад "Премиальный"</h3>
+                        <div class="popular-products__card row">
+                            <div class="popular-products__card-text col-6">
+                                <ul>
+                                    <li>Ставка от 3,9 % <span class="popular-products__card1-text_orange"></span></li>
+                                    <li>Ежемесячные выплаты</li>
+                                    <li>Минимальная сумма пополнения10%</li>
+                                </ul>
+                                <button type="button" id="button-apply-2"
+                                    class="btn button_orange btn-sm button_narrow dummy"><span
+                                        class="button__text">Оформить</span></button>
+                            </div>
+                            <div class="popular-products__card1-img col-6">
+                                <img class="popular-products__card-size" src="" alt="">
+                            </div>
+
+                        </div>
                     </div>
+
 
                 </div>
 

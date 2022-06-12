@@ -280,7 +280,7 @@ main {
 
 .button__text {
     font-family: 'Nunito', sans-serif;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .button_yellow {
@@ -490,6 +490,363 @@ main {
 
 .slider.slick-init {
     padding: 0 0px;
+}
+
+/* *************************************currency ******************************** */
+.currency {
+    /* border: 0.5px solid red; */
+    /* padding-top: 0.5rem;
+    padding-bottom: 5rem; */
+    padding-bottom: 2px;
+}
+.currency__initial {
+    background: rgba(239, 249, 240, 0.5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 79px;
+    padding-left: 15.9%;
+    padding-right: 15.9%;
+}
+.currency__items {
+    /* border: 0.5px solid red; */
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+
+    width: 70%;
+    /* gap: 5rem; */
+}
+/* .currency__items>* {
+    flex: 1 1 100px;
+} */
+
+/* иконка валюты + 1 EUR (currency__name) + цена + символ валюты */
+.currency__item {
+    /* border: 0.5px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* min-width: 25%; */
+    gap: 1rem;
+    /* padding: 0.3rem; */
+}
+/* иконка валюты + 1 EUR (currency__type) */
+.currency__name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.currency__main .currency__name {
+    justify-content: flex-start;
+    gap: 0.7rem;
+}
+
+.currency__type {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 11px;
+    /* identical to box height, or 73% */
+
+    text-transform: capitalize;
+
+    color: #807C7C;
+}
+
+.currency__price {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    /* line-height: 70px; */
+    /* or 470% */
+
+    letter-spacing: 0.035em;
+
+    color: #373535;
+}
+
+.currency__icon {
+    width: 19px;
+    height: 19px;
+}
+
+/* скрытый на странице блок, который появляется при клике на "забронировать курс" */
+.currency__main {
+    /* background: rgba(239, 249, 240, 0.5); */
+    background-color: #EFF9F0;
+    /* border: 0.5px solid blue; */
+    height: 187px;
+    display: grid;
+    grid-template-columns: 9.58% 9fr 20fr 11fr 9.58%;
+    grid-template-rows: 1fr;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    /* height: 187px; */
+    display: none;
+}
+
+.currency__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    /* line-height: 70px; */
+/* identical to box height, or 470% */
+
+    letter-spacing: 0.035em;
+
+    color: #373535;
+}
+
+.currency__exchange-rate-type {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    /* line-height: 70px; */
+    /* identical to box height, or 588% */
+
+    letter-spacing: 0.035em;
+
+    color: #373535;
+}
+
+.currency__exchange-rate-type {
+    /* background-color: #FFBD00; */
+    /* border: #373535 solid 0.5px; */
+}
+
+/* стилизация радио переключателя */
+.currency__exchange-rate-type input[type='radio'], label {
+  cursor: pointer;
+}
+
+.currency__exchange-rate-type input[type='radio'] {
+  position: relative;
+  height: 16px;
+  width: 16px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+}
+
+.currency__exchange-rate-type input[type='radio']::before {
+    content: '';
+    position: absolute;
+    top: 12px;
+    left: 7px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 2px solid #E15601;
+  }
+
+
+.currency__exchange-rate-type input[type='radio']:checked::after {
+    content: '';
+    position: absolute;
+    top: 12px;
+    left: 7px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #E15601;
+    transform: translate(-50%, -50%);
+    visibility: visible;
+}
+/* конец стилизации radio  */
+
+.currency__exchange-rate-types {
+    /* border: 0.5px solid blue; */
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* margin-bottom: 0; */
+    /* row-gap: 1px; */
+}
+
+.currency__exchange-rates {
+    /* border: 0.5px solid violet; */
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    row-gap: 1rem;
+}
+
+.currency__exchange-rates> div {
+    /* border: 0.5px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* padding-bottom: 5px; */
+}
+
+.currency-calculator {
+    /* border: 0.5px solid blue; */
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;   
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: right; */
+    /* gap: 10px; */
+    justify-content: space-between;
+}
+
+.currency__exchange-rate-type_popup {
+    display: none;
+}
+
+/* блок для ввода суммы + вида валюты */
+.currency-calculator__val {
+    border: #4E8A6B 0.5px solid;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+    width: 100%;
+}
+
+.currency-calculator__num {
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    border: 0;
+    width: 50%;
+    height: 25px;
+}
+
+.currency-calculator__cur-type {
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    border: 0;
+    width: 50%;
+    height: 25px;
+}
+
+.currency-calculator__button {
+    justify-self: flex-end;
+    width: 100%;
+}
+
+/* секция currency__main должна появляться по клику на "забронировать курс" на больших ширинах */
+/* на меньших ширинах секция initial должна быть скрыта, а main - показана */
+
+@media screen and (max-width:950px) {
+    .currency__initial {
+        display: none;
+    }
+    .currency__main {
+        /* display: block; */
+    }
+    .currency__title {
+        font-size: 12px;
+    }
+    .currency__exchange-rate-type {
+        font-size: 10px;
+    }
+
+    .currency__price {
+        font-size: 11px;
+    }
+    .currency__type {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 865px) {
+    .currency__exchange-rates {
+        display: none;
+    }
+
+    .currency__main {
+        grid-template-columns: 15% 30fr 15fr 15%;
+        gap: 20px;
+    }
+
+    .currency__exchange-rate-types {
+        grid-column: 3 / 4;
+    }
+
+    .currency-calculator {
+        grid-column: 2 / 3;
+    }
+    .currency-calculator__val {
+        /* border: #4E8A6B 0.5px solid; */
+        display: flex;
+        justify-content: flex-start;
+        /* gap: 5px; */
+    }
+    /* шрифты опять побольше сделать */
+    .currency__title {
+        font-size: 14px;
+    }
+    .currency__exchange-rate-type {
+        font-size: 12px;
+    }
+
+    .currency__price {
+        font-size: 13px;
+    }
+    .currency__type {
+        font-size: 13px;
+    }
+
+}
+
+@media screen and (max-width: 785px) {
+    .currency__main {
+        grid-template-columns: 10% 30fr 15fr 10%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .currency__main {
+        grid-template-columns: 6% 30fr 15fr 6%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .currency__main {
+        grid-template-columns: 2% 30fr 15fr 2%;
+    }
+}
+@media screen and ( max-width: 470px) {
+    .currency__exchange-rate-type_popup {
+        display: block;
+        background-color: #FFFFFF;
+        border-radius: 3px;
+        border: 0;
+        width: 50%;
+        height: 25px;
+    }
+
+    .currency__exchange-rate-types {
+        display: none;
+    }
+    .currency__main {
+        grid-template-columns: 6% 1fr 6%;
+    }
+
+    .currency-calculator {
+        grid-row: 2 / 3;
+        gap: 10px;
+    }
+    .currency__main {  
+        height: auto;
+        gap: 0;
+    }
+ 
 }
 
 /************************************* credit type ****************************/

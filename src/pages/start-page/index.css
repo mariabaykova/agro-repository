@@ -531,7 +531,7 @@ main {
     list-style-type: none;
     padding-top: 20px;
     font-size: 15px;
-    color: #807C7C;;
+    color: #807C7C;
 }
 
 #button-details-3 {
@@ -539,13 +539,73 @@ main {
     margin-left: 22px;
 }
 
-#button-calc-1 {
+#button-calc-1,
+#button-apply-2 {
     margin-left: 22px;
 }
 
 .popular-products__card-text_orange {
     color: #E15601;
     font-weight: bold;
+}
+
+.popular-products__header-line {
+    height: 70.18px;
+}
+
+.popular-products__slide_small {
+    margin-right: 40px;
+}
+
+.popular-products__card-text_small  li {
+    list-style-type: none;
+    padding-top: 9px;
+    font-size: 15px;
+    color: #807C7C;
+}
+
+.popular-products__card-text_small  ul {
+    padding-left: 0px;
+    
+}
+
+.popular-products__text-col {
+    padding-top: 18px;
+    padding-bottom: 28px;
+}
+
+.popular-products__card_small {
+    width: 340px;
+}
+
+.popular-products__header_small414 {
+    font-size: 20px;
+    color: #373535;
+    padding-bottom: 24px;
+    padding-top: 50px;
+}
+
+.popular-products__btn_small {
+        padding-left: 41px;
+        padding-right: 41px;
+    }
+
+@media screen and (min-width: 415px) {
+    .popular-products__slider_small {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .popular-products__big {
+        display: none;
+    }
+    #button-details-3 {
+        margin: 0;
+    }
+    #button-apply-2 {
+        margin-left: 11px;
+    }
 }
 
 

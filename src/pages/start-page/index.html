@@ -99,11 +99,133 @@
                 </div>
             </section>
             <section class="currency">
+                <div class="currency__initial">
+                    <div class="currency__items">
+                        <div class="currency__item">
+                            <div class="currency__name">
+                                <img src="../../assets/images/currency/eur-icon.svg" alt="cureency icon"
+                                    class="currency__icon">
+                                <div class="currency__type">1 EUR</div>
+                            </div>
+                            <div class="currency__price">80,26 &#8381;</div>
+                        </div>
+                        <div class="currency__item">
+                            <div class="currency__name">
+                                <img src="../../assets/images/currency/eur-icon.svg" alt="euro icon"
+                                    class="currency__icon">
+                                <div class="currency__type">1 EUR</div>
+                            </div>
+                            <div class="currency__price">80,26 &#8381;</div>
+                        </div>
+                        <div class="currency__item">
+                            <div class="currency__name">
+                                <img src="../../assets/images/currency/eur-icon.svg" alt="euro icon"
+                                    class="currency__icon">
+                                <div class="currency__type">
+                                    1 EUR
+                                </div>
+                            </div>
+                            <div class="currency__price">80,26 &#8381;</div>
+                        </div>
 
-                <button type="button" id="button-book-1" class="btn button_orange btn-sm button_narrow"><span
-                        class="button__text">Забронировать
-                        курс</span></button>
+                    </div>
+                    <button type="button" id="button-book-currency-1" class="btn button_orange btn-sm button_narrow">
+                        <span class="button__text">Забронировать курс</span>
+                    </button>
+                </div>
 
+                <div class="currency__main">
+                    <div class="currency__exchange-rate-types">
+                        <div class="currency__title">Курс для обмена</div>
+                        <div class="currency__exchange-rate-type">
+                            <input type="radio" id="cash" name="rate-type" value="cash" checked>
+                            <label for="cash">Наличные</label>
+                        </div>
+                        <div class="currency__exchange-rate-type">
+                            <input type="radio" id="cards" name="rate-type" value="cards">
+                            <label for="cards">Банковские карты</label>
+                        </div>
+                        <div class="currency__exchange-rate-type">
+                            <input type="radio" id="online-bank" name="rate-type" value="online-bank">
+                            <label for="online-bank">Онлайн банк</label>
+                        </div>
+
+                    </div>
+                    <div class="currency__exchange-rates">
+                        <div class="currency__names">
+                            <h5 class="currency__title">Валюта</h5>
+                            <div class="currency__name">
+                                <img src="../../assets/images/currency/eur-icon.svg" alt="euro icon"
+                                    class="currency__icon">
+                                <div class="currency__type">1 EUR</div>
+                            </div>
+                            <div class="currency__name">
+                                <img src="../../assets/images/currency/eur-icon.svg" alt="euro icon"
+                                    class="currency__icon">
+                                <div class="currency__type">1 EUR</div>
+                            </div>
+                            <div class="currency__name">
+                                <img src="../../assets/images/currency/eur-icon.svg" alt="euro icon"
+                                    class="currency__icon">
+                                <div class="currency__type">1 EUR</div>
+                            </div>
+                        </div>
+                        <div class="currency__buy-block">
+                            <h5 class="currency__title">Покупка</h5>
+                            <div class="currency__price">80,26 &#8381;</div>
+                            <div class="currency__price">80,26 &#8381;</div>
+                            <div class="currency__price">80,26 &#8381;</div>
+                        </div>
+                        <div class="currency__sell-block">
+                            <h5 class="currency__title">Продажа</h5>
+                            <div class="currency__price">80,26 &#8381;</div>
+                            <div class="currency__price">80,26 &#8381;</div>
+                            <div class="currency__price">80,26 &#8381;</div>
+
+                        </div>
+                        <div class="currency__cb-block">
+                            <h5 class="currency__title">ЦБ</h5>
+                            <div class="currency__price">80,26 &#8381;</div>
+                            <div class="currency__price">80,26 &#8381;</div>
+                            <div class="currency__price">80,26 &#8381;</div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="currency-calculator">
+                        <h5 class="currency__title">Обмен</h5>
+                        <!-- <div class="currency-calculator__val">
+
+                        </div> -->
+                        <!-- выбор типа обмена (кэш, карты, Онлайн банк) -->
+                        <select name="rate-type-popup" id="rate-type-popup" class="currency__exchange-rate-type_popup">
+                            <option value="cash">Наличные</option>
+                            <option value="cards">Карты</option>
+                            <option value="online-bank">Онлайн банк</option>
+                        </select>
+                        <div class="currency-calculator__val">
+                            <input type="number" id="calc-first-num" class="currency-calculator__num">
+                            <select name="currency-type-1" id="currency-type-1" class="currency-calculator__cur-type">
+                                <option value="USD">Доллар США</option>
+                                <option value="EUR">Евро</option>
+                                <option value="RUB">Рубль</option>
+                            </select>
+                        </div>
+                        <div class="currency-calculator__val">
+                            <input type="number" id="calc-second-num" class="currency-calculator__num">
+                            <select name="currency-type-2" id="currency-type-2" class="currency-calculator__cur-type">
+                                <option value="USD">Доллар США</option>
+                                <option value="EUR">Евро</option>
+                                <option value="RUB">Рубль</option>
+                            </select>
+                        </div>
+                        <button type="button" id="button-buy-currency-1"
+                            class="btn btn-sm button_yellow button_wide currency-calculator__button">
+                            <span class="button__text">Купить валюту</span>
+                        </button>
+                    </div>
+                </div>
             </section>
 
 

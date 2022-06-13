@@ -731,10 +731,10 @@ main {
     color: #373535;
 }
 
-.currency__exchange-rate-type {
-    /* background-color: #FFBD00; */
-    /* border: #373535 solid 0.5px; */
-}
+/*.currency__exchange-rate-type {
+     background-color: #FFBD00; */
+    /* border: #373535 solid 0.5px; 
+}*/
 
 /* стилизация радио переключателя */
 .currency__exchange-rate-type input[type='radio'], label {

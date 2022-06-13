@@ -373,13 +373,16 @@ main {
 
     .top-block__slide1-text,
     .top-block__slide2-text {
-        font-size: 40px;
+        font-size: 50px;
         display: block;
         width: 437px;
     }
 
     .top-block__slide1__button {
-        margin-bottom: 86px;
+        margin-bottom: 150px;
+    }
+    .top-block__slide2__button {
+        margin-bottom: 87px;
     }
 }
 
@@ -490,6 +493,119 @@ main {
 
 .slider.slick-init {
     padding: 0 0px;
+}
+
+
+/************************************* popular products ****************************/
+
+.popular-products__header {
+    color: #373535;
+    font-size: 35px;
+    padding-bottom: 10px;
+    padding-top: 41px;
+}
+.popular-products__header_small {
+    font-size: 20px;
+    color: #373535;
+}
+
+.popular-products__card {
+    width: 390px;
+    height: 220px;
+    border: 1px solid #EFE4D5;
+    margin-right: 134px;
+}
+
+.popular-products__card-size {
+    
+    height: 167px;
+    margin-top: 26px;
+}
+
+.popular-products__card-text ul {
+    padding-left: 22px;
+    padding-top: 4px
+}
+
+.popular-products__card-text li {
+    list-style-type: none;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #807C7C;
+}
+
+#button-details-3 {
+    margin-top: 20px;
+    margin-left: 22px;
+}
+
+#button-calc-1,
+#button-apply-2 {
+    margin-left: 22px;
+}
+
+.popular-products__card-text_orange {
+    color: #E15601;
+    font-weight: bold;
+}
+
+.popular-products__header-line {
+    height: 70.18px;
+}
+
+.popular-products__slide_small {
+    margin-right: 40px;
+}
+
+.popular-products__card-text_small  li {
+    list-style-type: none;
+    padding-top: 9px;
+    font-size: 15px;
+    color: #807C7C;
+}
+
+.popular-products__card-text_small  ul {
+    padding-left: 0px;
+    
+}
+
+.popular-products__text-col {
+    padding-top: 18px;
+    padding-bottom: 28px;
+}
+
+.popular-products__card_small {
+    width: 340px;
+}
+
+.popular-products__header_small414 {
+    font-size: 20px;
+    color: #373535;
+    padding-bottom: 24px;
+    padding-top: 50px;
+}
+
+.popular-products__btn_small {
+        padding-left: 41px;
+        padding-right: 41px;
+    }
+
+@media screen and (min-width: 415px) {
+    .popular-products__slider_small {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .popular-products__big {
+        display: none;
+    }
+    #button-details-3 {
+        margin: 0;
+    }
+    #button-apply-2 {
+        margin-left: 11px;
+    }
 }
 
 /* *************************************currency ******************************** */

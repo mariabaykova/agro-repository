@@ -26,7 +26,7 @@ $(function () {
 });
 
 $(function () {
-    $('.popular-products__slider').slick({
+    $('.popular-products__slider, .business-services__slider').slick({
         arrows: false,
         dots: false,
         adaptiveHeight: true,

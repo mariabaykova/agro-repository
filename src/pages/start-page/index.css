@@ -498,7 +498,8 @@ main {
 
 /************************************* popular products ****************************/
 
-.popular-products__header {
+.popular-products__header,
+.business-services__header {
     color: #373535;
     font-size: 35px;
     padding-bottom: 10px;
@@ -1169,6 +1170,61 @@ main {
     }
 }
 
+/************************************* business-and-services *********************************/
+
+.business-services__header {
+    padding-bottom: 16px;
+    margin-left: 0;
+}
+
+.business-services__slide-header {
+    padding-bottom: 16px;
+    font-size: 20px;
+    color: #373535;
+}
+
+.business-services__slide-card {
+    background-color: rgba(239, 249, 240, 0.5);
+    width: 366px;
+    height: 162px;
+    margin-bottom: 100px;
+    margin-right: 40px;
+}
+
+.business-services__slide-card_white {
+    width: 81px;
+    height: 81px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.business-services__slide-img {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.business-services__slide-text li {
+    list-style-type: none;
+    padding-top: 9px;
+    font-size: 15px;
+    
+    }
+
+.business-services__slide-text a {
+    color: #807C7C;
+    text-decoration: none;
+}
+
+.business-services__slide-text a:hover {
+    color: #E15601;
+}
+
+.business-services__slide-text ul { 
+    margin-top: 32px;
+    margin-left: 18px;
+}
 /************************************* footer *********************************/
 
 .footer {

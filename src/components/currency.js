@@ -124,15 +124,15 @@ function getData( url ) {
         }
 
         // перед заполнением курсов трех валют нужно узнать, что выбрано, кэш, карты, онлайн
-        console.log("rateTypeCheckbox " + rateTypeCheckbox);
+        // console.log("rateTypeCheckbox " + rateTypeCheckbox);
         selectedPayType = checkedRadio( rateTypeCheckbox );
-        console.log("selectedPayType " + selectedPayType);
+        // console.log("selectedPayType " + selectedPayType);
 
-        console.log("rateTypePopup " + rateTypePopup);
+        // console.log("rateTypePopup " + rateTypePopup);
         // сделать выпадающему списку типов рассчетов такое же значение
         checkSelect(rateTypePopup, selectedPayType );
 
-
+        // вынести в функцию
         // заполнить курсы валют (покупка, продажа, ЦБ в currency__main)
         // пройдем по списку валют для показа еще раз, их всего 3, так что не критично
         for ( let i = 0; i < currenciesToInitial.length; i++ ) {
@@ -153,11 +153,11 @@ function getData( url ) {
             
             // колонка "покупка"
             let currencyPriceBuy = addBlock( "div", { "class": "currency__price" }, currBuyBlock );
-            currencyPriceBuy.textContent = ( exchangeCoef["buy"] * exchangeRatesInfo[currenciesToInitial[i]["id"]]["Value"]).toFixed(2) + " " + rubSign;
+            currencyPriceBuy.textContent = ( exchangeCoef[selectedPayType] * exchangeCoef["buy"] * exchangeRatesInfo[currenciesToInitial[i]["id"]]["Value"]).toFixed(2) + " " + rubSign;
 
             // колонка "продажа"
             let currencyPriceSell = addBlock( "div", { "class": "currency__price" }, currSellBlock );
-            currencyPriceSell.textContent = ( exchangeCoef["sell"] * exchangeRatesInfo[currenciesToInitial[i]["id"]]["Value"]).toFixed(2) + " " + rubSign;
+            currencyPriceSell.textContent = ( exchangeCoef[selectedPayType] * exchangeCoef["sell"] * exchangeRatesInfo[currenciesToInitial[i]["id"]]["Value"]).toFixed(2) + " " + rubSign;
 
             // колонка ЦБ
             let currencyPriceCB = addBlock( "div", { "class": "currency__price" }, currCBBlock );

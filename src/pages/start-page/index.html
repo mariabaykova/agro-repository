@@ -139,11 +139,11 @@
                     <div class="currency__exchange-rate-types">
                         <div class="currency__title">Курс для обмена</div>
                         <div class="currency__exchange-rate-type">
-                            <input type="radio" id="cash" name="rate-type" value="cash" checked>
+                            <input type="radio" id="cash" name="rate-type" value="cash">
                             <label for="cash">Наличные</label>
                         </div>
                         <div class="currency__exchange-rate-type">
-                            <input type="radio" id="cards" name="rate-type" value="cards">
+                            <input type="radio" id="cards" name="rate-type" value="cards" checked>
                             <label for="cards">Банковские карты</label>
                         </div>
                         <div class="currency__exchange-rate-type">
@@ -155,9 +155,8 @@
                     <div class="currency__exchange-rates">
                         <div class="currency__names">
                             <h5 class="currency__title">Валюта</h5>
-                            <div class="currency__name">
-                                <img src="../../assets/images/currency/eur-icon.svg" alt="euro icon"
-                                    class="currency__icon">
+                            <!-- <div class="currency__name">
+                                <img src="../../assets/images/currency/eur-icon.svg" alt="euro icon" class="currency__icon">
                                 <div class="currency__type">1 EUR</div>
                             </div>
                             <div class="currency__name">
@@ -169,27 +168,27 @@
                                 <img src="../../assets/images/currency/eur-icon.svg" alt="euro icon"
                                     class="currency__icon">
                                 <div class="currency__type">1 EUR</div>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="currency__buy-block">
                             <h5 class="currency__title">Покупка</h5>
+                            <!-- <div class="currency__price">80,26 &#8381;</div>
                             <div class="currency__price">80,26 &#8381;</div>
-                            <div class="currency__price">80,26 &#8381;</div>
-                            <div class="currency__price">80,26 &#8381;</div>
+                            <div class="currency__price">80,26 &#8381;</div> -->
                         </div>
                         <div class="currency__sell-block">
                             <h5 class="currency__title">Продажа</h5>
+                            <!-- <div class="currency__price">80,26 &#8381;</div>
                             <div class="currency__price">80,26 &#8381;</div>
-                            <div class="currency__price">80,26 &#8381;</div>
-                            <div class="currency__price">80,26 &#8381;</div>
-
+                            <div class="currency__price">80,26 &#8381;</div> -->
+                            
                         </div>
                         <div class="currency__cb-block">
                             <h5 class="currency__title">ЦБ</h5>
+                            <!-- <div class="currency__price">80,26 &#8381;</div>
                             <div class="currency__price">80,26 &#8381;</div>
-                            <div class="currency__price">80,26 &#8381;</div>
-                            <div class="currency__price">80,26 &#8381;</div>
-
+                            <div class="currency__price">80,26 &#8381;</div> -->
+                            
                         </div>
 
                     </div>
@@ -222,7 +221,7 @@
                             </select>
                         </div>
                         <button type="button" id="button-buy-currency-1"
-                            class="btn btn-sm button_yellow button_wide currency-calculator__button">
+                            class="btn btn-sm button_yellow button_wide currency-calculator__button dummy">
                             <span class="button__text">Купить валюту</span>
                         </button>
                     </div>
@@ -658,6 +657,7 @@
     <script src="/node_modules/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="/src/libs/slick-1.8.1/slick/slick.min.js"></script>
     <script src="../../components/modal-win.js"></script>
+    <script src="../../components/currency.js"></script>
     <script type="text/javascript" src="/src/pages/start-page/index.js"></script>
 
 </body>

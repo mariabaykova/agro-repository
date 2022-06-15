@@ -1,5 +1,5 @@
 $(function () {
-    $('.slider').slick({
+    $('.top-block__slider').slick({
         arrows: true,
         dots: false,
         adaptiveHeight: true,
@@ -57,3 +57,15 @@ function closeOnClick() {
     hamb.classList.remove("active");
     body.classList.remove("noscroll");
 }
+$(function () {
+    $('.popular-products__slider, .business-services__slider').slick({
+        arrows: false,
+        dots: false,
+        adaptiveHeight: true,
+        infinite: true,
+        speed: 1000,
+        easing: 'ease',
+        autoplay: false,
+        variableWidth: true,
+    });
+});

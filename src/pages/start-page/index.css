@@ -101,6 +101,8 @@ header {
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
+    flex: 0 0 auto;
+    margin-top: 70px;
 }
 
 *,
@@ -109,17 +111,12 @@ header {
     box-sizing: inherit;
 }
 
-.container {
+.navbar>.container {
     width: 100%;
     max-width: 1000px;
     margin: 0 0;
     height: 100%;
     padding: 0 0px;
-}
-
-.header {
-    flex: 0 0 auto;
-    margin-top: 70px;
 }
 
 .content {
@@ -385,7 +382,7 @@ header {
 }
 
 @media (max-width: 1000px) {
-    .container {
+    .navbar>.container {
         width: 0%;
         margin: 0 0px;
         height: 100%;

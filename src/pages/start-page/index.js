@@ -57,6 +57,8 @@ function closeOnClick() {
     hamb.classList.remove("active");
     body.classList.remove("noscroll");
 }
+
+
 $(function () {
     $('.popular-products__slider, .business-services__slider').slick({
         arrows: false,

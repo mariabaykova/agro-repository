@@ -141,6 +141,7 @@ main {
 
 .nav-scroller .nav {
     display: flex;
+<<<<<<< HEAD
     flex-wrap: nowrap;
     padding-bottom: 1rem;
     margin-top: -1px;
@@ -148,12 +149,17 @@ main {
     text-align: center;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
+=======
+    justify-content: flex-end;
+    flex-direction: row;
+>>>>>>> parent of 5b48ae7 (header)
 }
 
 .form-control-dark {
     border-color: var(--bs-gray);
 }
 
+<<<<<<< HEAD
 .form-control-dark:focus {
     border-color: #fff;
     box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
@@ -161,6 +167,23 @@ main {
 
 .text-small {
     font-size: 85%;
+=======
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 0;
+    height: 100%;
+    padding: 0 0px;
+}
+
+.header {
+    flex: 0 0 auto;
+    margin-top: 70px;
+}
+
+.content {
+    padding: 50px 0;
+>>>>>>> parent of 5b48ae7 (header)
 }
 
 .dropdown-toggle {
@@ -276,6 +299,220 @@ main {
     border-radius: 3px;
 }
 
+<<<<<<< HEAD
+=======
+@media (max-width: 1000px) {
+    .container {
+        width: 0%;
+        margin: 0 0px;
+        height: 100%;
+        padding: 0 0px;
+    }
+
+    .navbar__wrap .menu {
+        display: none;
+    }
+
+    .navbar__wrap {
+        width: 90%;
+    }
+
+    .navbar {
+        width: 95%;
+    }
+
+    .hamb {
+        display: flex;
+        align-items: center;
+    }
+
+    .hamb__field {
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+
+    .bar {
+        display: block;
+        width: 30px;
+        height: 3px;
+        margin: 6px auto;
+        background-color: rgb(36, 36, 36);
+        transition: 0.2s;
+    }
+
+    .popup {
+        position: fixed;
+        top: 75px;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        z-index: 100;
+        display: flex;
+        transition: 0.3s;
+    }
+
+    .popup.open {
+        left: 0;
+    }
+
+    .popup .menu {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+
+        overflow: auto;
+    }
+
+    .popup .menu>ul>li {
+        width: 100%;
+    }
+
+    .popup .menu>ul>li>a {
+        width: 100%;
+    }
+
+    .popup .menu_link2 {
+        margin-top: 120px;
+        margin-left: -155px;
+    }
+
+    .popup .menu>ul>li>a:hover {
+        background-color: rgba(122, 82, 179, 0.1);
+    }
+
+    .popup>.menu>ul {
+        list-style-type: none;
+    }
+
+    .hamb__field.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamb__field.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamb__field.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    body.noscroll {
+        overflow: hidden;
+    }
+
+    .header_adress {
+        display: none;
+    }
+
+    .adress_tel {
+        display: none;
+    }
+
+    .btn_header {
+        display: none;
+    }
+
+    .navbar {
+        position: absolute;
+
+    }
+
+    .logo {
+        position: relative;
+        top: -23px;
+
+    }
+
+    .logoimg img {
+        width: 80%;
+    }
+
+
+    .link2 {
+        display: flex;
+        align-items: flex-start;
+        width: 40px;
+        padding-top: 70px;
+
+
+    }
+
+    .link2>.hide_link {
+        padding-inline-start: 0px;
+        height: 30px;
+        width: 500px;
+    }
+
+    .link2>.hide_link>li>a {
+        text-decoration: none;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 11px;
+        text-align: right;
+        text-transform: uppercase;
+
+        color: #807C7C;
+
+    }
+
+    .navbar__wrap .link2>.hide_link {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .navbar__wrap .link2>.hide_link>li {
+        display: flex;
+
+        padding-right: 25px;
+    }
+
+    .navbar__wrap .link2>.hide_link>li>a {
+        display: flex;
+        color: #807C7C;
+    }
+
+    .navbar__wrap .link2>.hide_link>li>a:hover {
+        color: #807C7C;
+    }
+
+    .contacts {
+        display: flex;
+        width: 300px;
+        position: relative;
+
+        height: 35px;
+        left: 80px;
+        top: 30px;
+    }
+
+    .contacts img {
+        padding-left: 10px;
+        width: 19px;
+        height: 19px;
+    }
+
+    .linkbtn {
+        width: 100px;
+        height: 50px;
+        padding-left: 10px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 20px;
+        letter-spacing: 0.125em;
+        color: #E15601;
+    }
+}
+
+>>>>>>> parent of 5b48ae7 (header)
 /******************************** button *******************************/
 
 .button__text {

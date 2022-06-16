@@ -670,19 +670,24 @@ header {
     .top-block__slide_all {
         height: 250px;
     }
+
     .top-block__slide1-text,
     .top-block__slide2-text {
         font-size: 25px;
     }
+
     .top-block__slide2-text {
         padding-top: 20px;
     }
+
     .top-block__slide1-text {
         padding-top: 40px;
     }
+
     .top-block__button_none {
         display: none;
     }
+
     .top-block__slide2__button {
         margin-top: 0px;
     }
@@ -692,6 +697,7 @@ header {
     .top-block__slide_all {
         height: 250px;
     }
+
     .top-block__slide1-text,
     .top-block__slide2-text {
         font-size: 30px;
@@ -723,6 +729,7 @@ header {
     .top-block__slide_all {
         height: 250px;
     }
+
     .top-block__slide1-text,
     .top-block__slide2-text {
         font-size: 30px;
@@ -744,6 +751,7 @@ header {
     .top-block__slide2__button {
         margin-bottom: 35px;
     }
+
     .popular-products__header {
         font-size: 25px;
     }
@@ -753,12 +761,14 @@ header {
     .top-block__slide_all {
         height: 500px;
     }
+
     .top-block__slide1-text,
     .top-block__slide2-text {
         font-size: 50px;
         display: block;
         width: 430px;
     }
+
     .top-block__slide1-text {
         padding-top: 40px;
     }
@@ -769,35 +779,40 @@ header {
     .top-block__slide_all {
         height: 350px;
     }
+
     .top-block__slide1-text,
     .top-block__slide2-text {
         font-size: 40px;
         display: block;
         width: 430px;
     }
+
     .top-block__slide2-text {
         margin-top: 0px;
     }
+
     .top-block__slide2__button {
         margin-bottom: 20px;
-}
+    }
 
-@media screen and (min-width: 1280px) {
-    .top-block__slide_all {
-        height: 550px;
-    }
-    .top-block__slide1-text,
-    .top-block__slide2-text {
-        font-size: 50px;
-        display: block;
-        width: 450px;
-    }
-    .top-block__slide1-text {
-        padding-top: 40px;
-    }
-}
+    @media screen and (min-width: 1280px) {
+        .top-block__slide_all {
+            height: 550px;
+        }
 
-/*
+        .top-block__slide1-text,
+        .top-block__slide2-text {
+            font-size: 50px;
+            display: block;
+            width: 450px;
+        }
+
+        .top-block__slide1-text {
+            padding-top: 40px;
+        }
+    }
+
+    /*
 @media screen and (min-width: 540px) {
     .top-block__slide1,
     .top-block__slide2 {
@@ -875,6 +890,7 @@ header {
     }
 }*/
 }
+
 .slick-track {
     display: flex;
     align-items: flex-start;
@@ -967,12 +983,13 @@ header {
 }
 
 @media screen and (max-width: 540px) {
+
     .popular-products__header,
     .business-services__header {
         font-size: 30px;
     }
 }
-    
+
 
 .popular-products__header_small {
     font-size: 20px;
@@ -987,7 +1004,7 @@ header {
 }
 
 .popular-products__card-size {
-    
+
     height: 167px;
     margin-top: 26px;
 }
@@ -1027,16 +1044,16 @@ header {
     margin-right: 40px;
 }
 
-.popular-products__card-text_small  li {
+.popular-products__card-text_small li {
     list-style-type: none;
     padding-top: 9px;
     font-size: 15px;
     color: #807C7C;
 }
 
-.popular-products__card-text_small  ul {
+.popular-products__card-text_small ul {
     padding-left: 0px;
-    
+
 }
 
 .popular-products__text-col {
@@ -1056,9 +1073,9 @@ header {
 }
 
 .popular-products__btn_small {
-        padding-left: 41px;
-        padding-right: 41px;
-    }
+    padding-left: 41px;
+    padding-right: 41px;
+}
 
 @media screen and (min-width: 415px) {
     .popular-products__slider_small {
@@ -1070,9 +1087,11 @@ header {
     .popular-products__big {
         display: none;
     }
+
     #button-details-3 {
         margin: 0;
     }
+
     #button-apply-2 {
         margin-left: 11px;
     }
@@ -1085,6 +1104,7 @@ header {
     padding-bottom: 5rem; */
     padding-bottom: 2px;
 }
+
 .currency__initial {
     background: rgba(239, 249, 240, 0.5);
     display: flex;
@@ -1095,6 +1115,7 @@ header {
     padding-left: 15.9%;
     padding-right: 15.9%;
 }
+
 .currency__items {
     /* border: 0.5px solid red; */
     display: flex;
@@ -1104,6 +1125,7 @@ header {
     width: 70%;
     /* gap: 5rem; */
 }
+
 /* .currency__items>* {
     flex: 1 1 100px;
 } */
@@ -1119,6 +1141,7 @@ header {
     gap: 1rem;
     /* padding: 0.3rem; */
 }
+
 /* иконка валюты + 1 EUR (currency__type) */
 .currency__name {
     display: flex;
@@ -1182,7 +1205,7 @@ header {
     font-weight: 600;
     font-size: 15px;
     /* line-height: 70px; */
-/* identical to box height, or 470% */
+    /* identical to box height, or 470% */
 
     letter-spacing: 0.035em;
 
@@ -1203,22 +1226,23 @@ header {
 
 /*.currency__exchange-rate-type {
      background-color: #FFBD00; */
-    /* border: #373535 solid 0.5px; 
+/* border: #373535 solid 0.5px; 
 }*/
 
 /* стилизация радио переключателя */
-.currency__exchange-rate-type input[type='radio'], label {
-  cursor: pointer;
+.currency__exchange-rate-type input[type='radio'],
+label {
+    cursor: pointer;
 }
 
 .currency__exchange-rate-type input[type='radio'] {
-  position: relative;
-  height: 16px;
-  width: 16px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  outline: none;
+    position: relative;
+    height: 16px;
+    width: 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
 }
 
 .currency__exchange-rate-type input[type='radio']::before {
@@ -1232,7 +1256,7 @@ header {
     transform: translate(-50%, -50%);
     background-color: white;
     border: 2px solid #E15601;
-  }
+}
 
 
 .currency__exchange-rate-type input[type='radio']:checked::after {
@@ -1247,6 +1271,7 @@ header {
     transform: translate(-50%, -50%);
     visibility: visible;
 }
+
 /* конец стилизации radio  */
 
 .currency__exchange-rate-types {
@@ -1271,7 +1296,7 @@ header {
     row-gap: 1rem;
 }
 
-.currency__exchange-rates> div {
+.currency__exchange-rates>div {
     /* border: 0.5px solid blue; */
     display: flex;
     flex-direction: column;
@@ -1282,7 +1307,7 @@ header {
 .currency-calculator {
     /* border: 0.5px solid blue; */
     grid-column: 4 / 5;
-    grid-row: 1 / 2;   
+    grid-row: 1 / 2;
 
     display: flex;
     flex-direction: column;
@@ -1332,12 +1357,15 @@ header {
     .currency__initial {
         display: none;
     }
+
     .currency__main {
         display: grid;
     }
+
     .currency__title {
         font-size: 12px;
     }
+
     .currency__exchange-rate-type {
         font-size: 10px;
     }
@@ -1345,6 +1373,7 @@ header {
     .currency__price {
         font-size: 11px;
     }
+
     .currency__type {
         font-size: 11px;
     }
@@ -1367,16 +1396,19 @@ header {
     .currency-calculator {
         grid-column: 2 / 3;
     }
+
     .currency-calculator__val {
         /* border: #4E8A6B 0.5px solid; */
         display: flex;
         justify-content: flex-start;
         /* gap: 5px; */
     }
+
     /* шрифты опять побольше сделать */
     .currency__title {
         font-size: 14px;
     }
+
     .currency__exchange-rate-type {
         font-size: 12px;
     }
@@ -1384,6 +1416,7 @@ header {
     .currency__price {
         font-size: 13px;
     }
+
     .currency__type {
         font-size: 13px;
     }
@@ -1407,7 +1440,8 @@ header {
         grid-template-columns: 2% 30fr 15fr 2%;
     }
 }
-@media screen and ( max-width: 470px) {
+
+@media screen and (max-width: 470px) {
     .currency__exchange-rate-type_popup {
         display: block;
         background-color: #FFFFFF;
@@ -1420,6 +1454,7 @@ header {
     .currency__exchange-rate-types {
         display: none;
     }
+
     .currency__main {
         grid-template-columns: 6% 1fr 6%;
     }
@@ -1428,11 +1463,12 @@ header {
         grid-row: 2 / 3;
         gap: 10px;
     }
-    .currency__main {  
+
+    .currency__main {
         height: auto;
         gap: 0;
     }
- 
+
 }
 
 /************************************* credit type ****************************/
@@ -1524,7 +1560,7 @@ header {
 }
 
 @media screen and (max-width: 1000px) {
-   
+
     .credit-types h2 {
 
         left: 5px;
@@ -1539,7 +1575,7 @@ header {
 
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
-    
+
     }
 
     .typescredit {
@@ -1680,8 +1716,8 @@ header {
     list-style-type: none;
     padding-top: 9px;
     font-size: 15px;
-    
-    }
+
+}
 
 .business-services__slide-text a {
     color: #807C7C;
@@ -1692,82 +1728,89 @@ header {
     color: #E15601;
 }
 
-.business-services__slide-text ul { 
+.business-services__slide-text ul {
     margin-top: 32px;
     margin-left: 18px;
 }
 
 
 /****************************appointment*****************************/
-.appointment{
+.appointment {
     display: grid;
 }
-.appointment>h2{
-margin-bottom: 20px;
-margin-left: 165px;
-height: 71px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-font-size: 35px;
-line-height: 70px;
-letter-spacing: 0.035em;
-color: #373535;
+.appointment>h2 {
+    margin-bottom: 20px;
+    margin-left: 165px;
+    height: 71px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 70px;
+    letter-spacing: 0.035em;
+    color: #373535;
 }
-.apply_form{
+
+.apply_form {
     width: 90%;
-    display:flex;
+    display: flex;
 }
-.btn_app{
+
+.btn_app {
     width: 185px;
-height: 40px;
-margin-left: 1250px;
+    height: 40px;
+    margin-left: 1250px;
 }
-.apply_form>input{
+
+.apply_form>input {
     margin-left: 10px;
 }
-.applypers{
- margin-left: 40px;
- margin-bottom: 20px;
-}
-.applypers>.btn{
 
+.applypers {
+    margin-left: 40px;
+    margin-bottom: 20px;
 }
-.applypers>p{
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-font-size: 10px;
-line-height: 13px;
-color: #807C7C;
+.applypers>p {
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    color: #807C7C;
 }
-@media screen and (max-width: 865px){
-    .appointment>h2{
+
+@media screen and (max-width: 865px) {
+    .appointment>h2 {
         margin: 10px 20px 20px;
         height: 30px;
         font-weight: 400;
-font-size: 20px;
-line-height: 20px;
-        
+        font-size: 20px;
+        line-height: 20px;
+
     }
-    .apply_form{
+
+    .apply_form {
         width: 90%;
-        display:grid;
-    
+        display: grid;
+
     }
-    .applypers{
+
+    .applypers {
         display: grid;
         margin-left: 0px;
         margin-bottom: 20px;
     }
 
-    .applypers>p{
+    .applypers>p {
         margin-left: 20px;
     }
- 
+
 }
+
 /************************************* footer *********************************/
 
 .footer {

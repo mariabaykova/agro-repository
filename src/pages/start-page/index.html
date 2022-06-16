@@ -21,53 +21,78 @@
 <body>
     <div class="shadow" id="wrapper-shadow"></div>
     <div class="wrapper">
-        <header class="header">
 
-            <nav class="py-2 bg-light border-bottom">
-                <div class="container d-flex flex-wrap justify-content-between">
-                    <ul class="nav me-auto">
-
-                        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Частным клиентам</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Бизнесу</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Недвижимость</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Поиск</a></li>
-                        <!--<form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
-                            <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
-                        </form>-->
-                    </ul>
-                    <div class="adress header__addres header__addres-adres"><img class="location"
-                            src="/src/assets/images/icon_location.svg" alt="location">
-                        Санкт-Петербург
-                        <select class="language" name="language">
-                            <option value="en">EN</option>
-                            <option value="ru" selected>RU</option>
-                        </select>
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar__wrap">
+                    <div class="hamb">
+                        <div class="hamb__field" id="hamb">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
+                    </div>
+                    <div class="logo">
+                        <a class="logoimg" href="/src/pages/start-page/index.html">
+                            <img src="/src/assets/images/logo.svg" alt="logo">
+                        </a>
                     </div>
 
+                    <div class="link2">
+                        <ul class="hide_link">
+                            <li><a href="#" class="nav-link link-dark px-2">Частным клиентам</a></li>
+                            <li><a href="#" class="nav-link link-dark px-2">Бизнесу</a></li>
+                            <li><a href="#" class="nav-link link-dark px-2">Прочее</a></li>
+                        </ul>
+                    </div>
+                    <div class="contacts">
+                        <img src="/src/assets/images/icon_location.svg" alt="location">
+                        <img src="/src/assets/images/orange 1.png" alt="phone">
+                        <a class="linkbtn" href="">ONLINE-BANK</a>
+                    </div>
+                    <ul class="menu" id="menu">
+                        <ul class="menu_link">
+                            <li><a href="#" class="link nav-link link-dark px-2">Частным клиентам</a></li>
+                            <li><a href="#" class="link nav-link link-dark px-2">Бизнесу</a></li>
+                            <li><a href="#" class="nav-link link-dark px-2">Недвижимость</a></li>
+                            <li><a href="#" class="nav-link link-dark px-2">Поиск</a></li>
+                        </ul>
+                        <ul class="menu_link2">
+
+                            <li><a href="#" class="nav-link link-dark px-2">Карты</a></li>
+                            <li><a href="#" class="nav-link link-dark px-2">Кредиты</a></li>
+                            <li><a href="#" class="nav-link link-dark px-2">Вклады</a></li>
+                            <li><a href="#" class="nav-link link-dark px-2">Оплата</a></li>
+                            <li><a href="#" class="nav-link link-dark px-2">Услуги</a></li>
+                        </ul>
+                        <div class="header_adress">
+                            <img class="location" src="/src/assets/images/icon_location.svg" alt="location">
+                            Санкт-Петербург
+                            <select class="language" name="language">
+                                <option value="en">EN</option>
+                                <option value="ru" selected>RU</option>
+                            </select>
+                        </div>
+                        <div class="adress_tel">
+                            <a class="header__addres-tel" href="tel:88002224419">8 800 222
+                                44 19</a>
+
+                            <p class="adress_phone">Свяжитесь с нами</p>
+
+                        </div>
+
+                        <button type="button" class="btn_header btn btn-sm button_online-bank button_narrow dummy"><span
+                                class="button__text">ONLINE-BANK</span></button>
+                    </ul>
                 </div>
+            </div>
 
-
-            </nav>
-
-            <div class="container d-flex flex-wrap justify-content-between">
-                <a href="/src/pages/start-page/index.html">
-                    <img src="/src/assets/images/logo.svg" alt="logo">
-                </a>
-                <ul class="nav">
-                    <li class="nav-item2"><a href="#" class="nav-link link-dark px-2">Карты</a></li>
-                    <li class="nav-item2"><a href="#" class="nav-link link-dark px-2">Кредиты</a></li>
-                    <li class="nav-item2"><a href="#" class="nav-link link-dark px-2">Вклады</a></li>
-                    <li class="nav-item2"><a href="#" class="nav-link link-dark px-2">Оплата</a></li>
-                    <li class="nav-item2"><a href="#" class="nav-link link-dark px-2">Услуги</a></li>
-                </ul>
-                <div class="header-adress"> <a class="header__addres-tel" href="tel:88002224419">8 800 222 44 19</a>
-                    <br>
-                    <p class="adress-tel">Свяжитесь с нами</p>
-
+        </nav>
+        <div class="popup" id="popup"></div>
+        <header class="header">
+            <div class="container">
+                <div class="content">
                 </div>
-                <button type="button" id="button-online-bank-1"
-                    class="btn btn-sm button_online-bank button_narrow dummy"><span
-                        class="button__text">ONLINE-BANK</span></button>
             </div>
         </header>
 
@@ -181,14 +206,14 @@
                             <!-- <div class="currency__price">80,26 &#8381;</div>
                             <div class="currency__price">80,26 &#8381;</div>
                             <div class="currency__price">80,26 &#8381;</div> -->
-                            
+
                         </div>
                         <div class="currency__cb-block">
                             <h5 class="currency__title">ЦБ</h5>
                             <!-- <div class="currency__price">80,26 &#8381;</div>
                             <div class="currency__price">80,26 &#8381;</div>
                             <div class="currency__price">80,26 &#8381;</div> -->
-                            
+
                         </div>
 
                     </div>
@@ -379,7 +404,7 @@
                 </div>
             </section>
 
-            <!------------------------------- credit-types ------------------------------------>
+            <!------------------------------- credit-types ----------------------------------
 
             <section class="credit-types">
                 <h2>Все виды кредитования</h2>
@@ -406,7 +431,7 @@
                 <button type="button" id="button-application-2" class="btn button_orange btn-sm button_wide dummy"><span
                         class="button__text">Заявка</span></button>
 
-            </section>
+            </section>-->
 
 
             <!--------------------- business-services ---------------------------->
@@ -503,7 +528,7 @@
 
             </section>
 
-            <!--------------------- appointment ---------------------------------->
+            <!--------------------- appointment --------------------------------
 
             <section class="appointment">appointment
 
@@ -518,7 +543,7 @@
                         class="button__text">ONLINE-BANK</span></button>
 
             </section>
-            <section class="news">news</section>
+            <section class="news">news</section>-->
 
         </main>
         <footer class="footer">

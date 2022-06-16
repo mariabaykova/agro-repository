@@ -26,7 +26,10 @@ $(function () {
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 703111b300b7a9166063077417fa3cc09fa9523c
 const hamb = document.querySelector("#hamb");
 const popup = document.querySelector("#popup");
 const menu = document.querySelector("#menu").cloneNode(1);
@@ -59,9 +62,14 @@ function closeOnClick() {
     hamb.classList.remove("active");
     body.classList.remove("noscroll");
 }
+<<<<<<< HEAD
 >>>>>>> parent of 5b48ae7 (header)
+=======
+
+
+>>>>>>> 703111b300b7a9166063077417fa3cc09fa9523c
 $(function () {
-    $('.popular-products__slider').slick({
+    $('.popular-products__slider, .business-services__slider').slick({
         arrows: false,
         dots: false,
         adaptiveHeight: true,

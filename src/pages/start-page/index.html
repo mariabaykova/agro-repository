@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -81,7 +81,11 @@
 
                         </div>
 
+<<<<<<< HEAD
                         <button type="button" class="btn_header btn btn-sm button_online-bank button_narrow dummy"><span
+=======
+                        <button type="button" class="btn_header btn btn-sm button_online-bank button_narrow"><span
+>>>>>>> 703111b300b7a9166063077417fa3cc09fa9523c
                                 class="button__text">ONLINE-BANK</span></button>
                     </ul>
                 </div>
@@ -95,8 +99,9 @@
                 </div>
             </div>
         </header>
+
         <main class="main">
-            <section class="top-block__slider slider">
+            <section class="top-block slider">
                 <div class="top-block__slide1">
                     <div class="container">
                         <h1 class="top-block__slide1-text">Вклад с доходом до <span
@@ -109,6 +114,7 @@
                                 class="button__text">Заявка</span></button>
                     </div>
                 </div>
+
                 <div class="top-block__slide2">
                     <div class="container">
                         <h1 class="top-block__slide2-text">Кредит по двум документам на любые цели</h1>
@@ -122,288 +128,44 @@
                 </div>
             </section>
             <section class="currency">
-                <div class="currency__initial">
-                    <div class="currency__items">
-                        <div class="currency__item">
-                            <div class="currency__name">
-                                <img src="../../assets/images/currency/eur-icon.svg" alt="cureency icon"
-                                    class="currency__icon">
-                                <div class="currency__type">1 EUR</div>
-                            </div>
-                            <div class="currency__price">80,26 &#8381;</div>
-                        </div>
-                        <div class="currency__item">
-                            <div class="currency__name">
-                                <img src="../../assets/images/currency/eur-icon.svg" alt="euro icon"
-                                    class="currency__icon">
-                                <div class="currency__type">1 EUR</div>
-                            </div>
-                            <div class="currency__price">80,26 &#8381;</div>
-                        </div>
-                        <div class="currency__item">
-                            <div class="currency__name">
-                                <img src="../../assets/images/currency/eur-icon.svg" alt="euro icon"
-                                    class="currency__icon">
-                                <div class="currency__type">
-                                    1 EUR
-                                </div>
-                            </div>
-                            <div class="currency__price">80,26 &#8381;</div>
-                        </div>
 
-                    </div>
-                    <button type="button" id="button-book-currency-1" class="btn button_orange btn-sm button_narrow">
-                        <span class="button__text">Забронировать курс</span>
-                    </button>
-                </div>
+                <button type="button" id="button-book-1" class="btn button_orange btn-sm button_narrow"><span
+                        class="button__text">Забронировать
+                        курс</span></button>
 
-                <div class="currency__main">
-                    <div class="currency__exchange-rate-types">
-                        <div class="currency__title">Курс для обмена</div>
-                        <div class="currency__exchange-rate-type">
-                            <input type="radio" id="cash" name="rate-type" value="cash" checked>
-                            <label for="cash">Наличные</label>
-                        </div>
-                        <div class="currency__exchange-rate-type">
-                            <input type="radio" id="cards" name="rate-type" value="cards">
-                            <label for="cards">Банковские карты</label>
-                        </div>
-                        <div class="currency__exchange-rate-type">
-                            <input type="radio" id="online-bank" name="rate-type" value="online-bank">
-                            <label for="online-bank">Онлайн банк</label>
-                        </div>
 
-                    </div>
-                    <div class="currency__exchange-rates">
-                        <div class="currency__names">
-                            <h5 class="currency__title">Валюта</h5>
-                            <div class="currency__name">
-                                <img src="../../assets/images/currency/eur-icon.svg" alt="euro icon"
-                                    class="currency__icon">
-                                <div class="currency__type">1 EUR</div>
-                            </div>
-                            <div class="currency__name">
-                                <img src="../../assets/images/currency/eur-icon.svg" alt="euro icon"
-                                    class="currency__icon">
-                                <div class="currency__type">1 EUR</div>
-                            </div>
-                            <div class="currency__name">
-                                <img src="../../assets/images/currency/eur-icon.svg" alt="euro icon"
-                                    class="currency__icon">
-                                <div class="currency__type">1 EUR</div>
-                            </div>
-                        </div>
-                        <div class="currency__buy-block">
-                            <h5 class="currency__title">Покупка</h5>
-                            <div class="currency__price">80,26 &#8381;</div>
-                            <div class="currency__price">80,26 &#8381;</div>
-                            <div class="currency__price">80,26 &#8381;</div>
-                        </div>
-                        <div class="currency__sell-block">
-                            <h5 class="currency__title">Продажа</h5>
-                            <div class="currency__price">80,26 &#8381;</div>
-                            <div class="currency__price">80,26 &#8381;</div>
-                            <div class="currency__price">80,26 &#8381;</div>
+                <!---------------------------- popular ------------------->
 
-                        </div>
-                        <div class="currency__cb-block">
-                            <h5 class="currency__title">ЦБ</h5>
-                            <div class="currency__price">80,26 &#8381;</div>
-                            <div class="currency__price">80,26 &#8381;</div>
-                            <div class="currency__price">80,26 &#8381;</div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="currency-calculator">
-                        <h5 class="currency__title">Обмен</h5>
-                        <!-- <div class="currency-calculator__val">
-
-                        </div> -->
-                        <!-- выбор типа обмена (кэш, карты, Онлайн банк) -->
-                        <select name="rate-type-popup" id="rate-type-popup" class="currency__exchange-rate-type_popup">
-                            <option value="cash">Наличные</option>
-                            <option value="cards">Карты</option>
-                            <option value="online-bank">Онлайн банк</option>
-                        </select>
-                        <div class="currency-calculator__val">
-                            <input type="number" id="calc-first-num" class="currency-calculator__num">
-                            <select name="currency-type-1" id="currency-type-1" class="currency-calculator__cur-type">
-                                <option value="USD">Доллар США</option>
-                                <option value="EUR">Евро</option>
-                                <option value="RUB">Рубль</option>
-                            </select>
-                        </div>
-                        <div class="currency-calculator__val">
-                            <input type="number" id="calc-second-num" class="currency-calculator__num">
-                            <select name="currency-type-2" id="currency-type-2" class="currency-calculator__cur-type">
-                                <option value="USD">Доллар США</option>
-                                <option value="EUR">Евро</option>
-                                <option value="RUB">Рубль</option>
-                            </select>
-                        </div>
-                        <button type="button" id="button-buy-currency-1"
-                            class="btn btn-sm button_yellow button_wide currency-calculator__button">
-                            <span class="button__text">Купить валюту</span>
-                        </button>
-                    </div>
-                </div>
             </section>
+            <section class="popular-products">
 
+                <div class="popular-products_slider">
 
-            <!---------------------------- popular ------------------->
-
-
-            <section class="popular-products container">
-                <div class="popular-products__big">
-                    <h2 class="popular-products__header">Популярные продукты</h2>
-                    <div class="popular-products__slider popular-products__slider_big slider">
-                        <div class="popular-products__slide">
-                            <h3 class="popular-products__header_small">Моментальная карта</h3>
-                            <div class="popular-products__card row">
-                                <div class="popular-products__card-text col-6">
-                                    <ul>
-                                        <li>Бесплатный выпуск и обслуживание</li>
-                                        <li><span class="popular-products__card-text_orange">3 %</span> на остаток по
-                                            карте
-                                        </li>
-                                        <li>CashBack до <span class="popular-products__card-text_orange">1%</span></li>
-                                    </ul>
-                                    <button type="button" id="button-details-3"
-                                        class="btn btn-sm button_yellow button_narrow dummy"><span
-                                            class="button__text">Подробнее</span></button>
-                                </div>
-                                <div class="popular-products__card-img col-6">
-                                    <img class="popular-products__card-size"
-                                        src="/src/assets/images/main_popular-products_card.svg" alt="card">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="popular-products__slide">
-                            <h3 class="popular-products__header_small">Ипотека от 4,7 %</h3>
-                            <div class="popular-products__card row">
-                                <div class="popular-products__card-text col-7">
-                                    <ul>
-                                        <li>Квартира в готовом или строящемся доме</li>
-                                        <li>Рассмотрение заявок онлайн за 12 часов</li>
-                                        <li>Первоначальный взнос от <span
-                                                class="popular-products__card1-text_orange">10%</span></li>
-                                    </ul>
-                                    <button type="button" id="button-calc-1"
-                                        class="btn button_orange btn-sm button_narrow dummy"><span
-                                            class="button__text">Рассчитать</span></button>
-                                </div>
-                                <div class="popular-products__card1-img col-5">
-                                    <img class="popular-products__card-size"
-                                        src="/src/assets/images/main_popular-product_houses.png" alt="houses">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="popular-products__slide">
-                            <h3 class="popular-products__header_small">Вклад "Премиальный"</h3>
-                            <div class="popular-products__card row">
-                                <div class="popular-products__card-text col-6">
-                                    <ul>
-                                        <li>Ставка от 3,9 % <span class="popular-products__card1-text_orange"></span>
-                                        </li>
-                                        <li>Ежемесячные выплаты</li>
-                                        <li>Минимальная сумма пополнения10%</li>
-                                    </ul>
-                                    <button type="button" id="button-apply-2"
-                                        class="btn button_orange btn-sm button_narrow dummy"><span
-                                            class="button__text">Оформить</span></button>
-                                </div>
-                                <div class="popular-products__card1-img col-6">
-                                    <img class="popular-products__card-size" src="" alt="">
-                                </div>
-
-                            </div>
-                        </div>
+                    <div class="popular-products__slide1">
+                        <img src="/src/assets/images/main_popular-products_card.svg">
+                        <button type="button" id="button-details-3"
+                            class="btn btn-sm button_yellow button_narrow dummy"><span
+                                class="button__text">Подробнее</span></button>
                     </div>
+
+                    <div class="popular-products__slide2">
+                        <img src="/src/assets/images/main_popular-product_houses.png">
+                        <button type="button" id="button-calc-1"
+                            class="btn button_orange btn-sm button_narrow dummy"><span
+                                class="button__text">Рассчитать</span></button>
+                    </div>
+
+                    <div class="popular-products__slide3">
+                        <button type="button" id="button-apply-2"
+                            class="btn button_orange btn-sm button_narrow dummy"><span
+                                class="button__text">Оформить</span></button>
+                    </div>
+
                 </div>
 
-                <div class="popular-products__slider popular-products__slider_small slider">
-                    <div class="popular-products__slide_small">
-                        <h3 class="popular-products__header_small414">Моментальная карта</h3>
-                        <img class="popular-products__card_small"
-                            src="/src/assets/images/main_popular-products_card.svg" alt="card">
-                        <div class="row popular-products__text-col">
-                            <div class="col-1">
-                                <img class="popular-products__header-line"
-                                    src="/src/assets/images/main_popular_line.png" alt="line">
-                            </div>
-                            <div class="col-10.5 popular-products__card-text_small">
-                                <ul>
-                                    <li>Бесплатный выпуск и обслуживание</li>
-                                    <li><span class="popular-products__card-text_orange">3 %</span> на остаток по карте
-                                    </li>
-                                    <li>CashBack до <span class="popular-products__card-text_orange">1%</span></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <button type="button" id="button-details-3"
-                            class="popular-products__btn_small btn btn-sm button_yellow dummy"><span
-                                class="button__text">Подробнее</span></button>
-                        <button type="button" id="button-apply-2"
-                            class="btn button_orange btn-sm popular-products__btn_small dummy"><span
-                                class="button__text">Оформить</span></button>
-                    </div>
-                    <div class="popular-products__slide_small">
-                        <h3 class="popular-products__header_small414">Кредитная карта "100 дней"</h3>
-                        <img class="popular-products__card_small" src="/src/assets/images/main_popular_card2.png"
-                            alt="card">
-                        <div class="row popular-products__text-col">
-                            <div class="col-1">
-                                <img class="popular-products__header-line"
-                                    src="/src/assets/images/main_popular_line.png" alt="line">
-                            </div>
-                            <div class="col-10.5 popular-products__card-text_small">
-                                <ul>
-                                    <li>Бесплатный выпуск и обслуживание</li>
-                                    <li><span class="popular-products__card-text_orange">3%</span> на остаток по карте
-                                    </li>
-                                    <li>CashBack до <span class="popular-products__card-text_orange">1%</span></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <button type="button" id="button-details-3"
-                            class="popular-products__btn_small btn btn-sm button_yellow dummy"><span
-                                class="button__text">Подробнее</span></button>
-                        <button type="button" id="button-apply-2"
-                            class="btn button_orange btn-sm popular-products__btn_small dummy"><span
-                                class="button__text">Оформить</span></button>
-                    </div>
-                    <div class="popular-products__slide_small">
-                        <h3 class="popular-products__header_small414">Mastercard Momentum</h3>
-                        <img class="popular-products__card_small" src="/src/assets/images/main_popular_card3.png"
-                            alt="card">
-                        <div class="row popular-products__text-col">
-                            <div class="col-1">
-                                <img class="popular-products__header-line"
-                                    src="/src/assets/images/main_popular_line.png" alt="line">
-                            </div>
-                            <div class="col-10.5 popular-products__card-text_small">
-                                <ul>
-                                    <li>Выпуск за <span class="popular-products__card-text_orange">100</span> рублей в
-                                        год</li>
-                                    <li>Оформление по паспорту</li>
-                                    <li>Без комиссии за переводы</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <button type="button" id="button-details-3"
-                            class="popular-products__btn_small btn btn-sm button_yellow dummy"><span
-                                class="button__text">Подробнее</span></button>
-                        <button type="button" id="button-apply-2"
-                            class="btn button_orange btn-sm popular-products__btn_small dummy"><span
-                                class="button__text">Оформить</span></button>
-                    </div>
-                </div>
+
+
             </section>
-
-            <!------------------------------- credit-types ------------------------------------>
-
             <section class="credit-types">
                 <h2>Все виды кредитования</h2>
                 <div class="imgcredit">
@@ -431,11 +193,21 @@
 
             </section>
             <section class="business-services">business services</section>
-            <section class="appointment">appointment
+            <section class="appointment">
+                <h2>Запись к персональному менеджеру</h2>
+                <div class="apply_form">
+                    <input type="text" class="form-control" placeholder="Отделение банка" aria-label="Отделение банка">
+                    <input type="text" class="form-control" placeholder="Имя Фамилия" aria-label="Имя Фамилия">
+                    <input type="phone" class="form-control" placeholder="Номер телефона" aria-label="Номер телефона">
+                </div>
+                <div class="applypers">
+                    <p>*После записи менеджер банка свяжется с вами и пригласит на встречу со специалистом по вашему
+                        вопросу в указанный день</p>
 
-                <button type="button" id="button-appointment-1" class="btn button_orange btn-sm button_wide dummy"><span
-                        class="button__text">Записаться</span></button>
-
+                    <button type="button" id="button-appointment-1"
+                        class="btn button_orange btn-sm button_wide dummy"><span
+                            class="button__text">Записаться</span></button>
+                </div>
             </section>
             <section class="mobile-bank">mobile bank section
 
